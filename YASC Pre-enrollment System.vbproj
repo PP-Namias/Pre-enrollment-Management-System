@@ -1,0 +1,715 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C03386A0-5520-45D6-A0BA-F35656679D24}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SchoolManagementSystem.My.MyApplication</StartupObject>
+    <RootNamespace>SchoolManagementSystem</RootNamespace>
+    <AssemblyName>YASC Pre-enrollment Project</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Admin\Desktop\ICT 2-JHON KENETH NAMIAS\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <ProductName>Pre-enrollment System</ProductName>
+    <PublisherName>Jhon Keneth Namias</PublisherName>
+    <SuiteName>Jhon Keneth Namias</SuiteName>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>YASC Pre-enrollment Project.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>YASC Pre-enrollment Project.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>YASC Pre-enrollment Project.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>YASC Pre-enrollment Project.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>6867BC0CDFCDD15AADCB53E3ABA0CB380A44C206</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Yasc Pre-enrollment System_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AdvancedDataGridView, Version=0.1.0.10, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\ADGV.0.1.0.10\lib\net40\AdvancedDataGridView.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge, Version=2.2.5.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb, processorArchitecture=MSIL">
+      <HintPath>packages\AForge.2.2.5\lib\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video, Version=2.2.5.0, Culture=neutral, PublicKeyToken=cbfb6e07d173c401, processorArchitecture=MSIL">
+      <HintPath>packages\AForge.Video.2.2.5\lib\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow, Version=2.2.5.0, Culture=neutral, PublicKeyToken=61ea4348d43881b7, processorArchitecture=MSIL">
+      <HintPath>packages\AForge.Video.DirectShow.2.2.5\lib\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.2.9, Culture=neutral, PublicKeyToken=e4b9cdd7b4cde4b4, processorArchitecture=MSIL">
+      <HintPath>packages\Guna.UI2.WinForms.2.0.2.9\lib\net40\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>packages\MetroFramework.RunTime.1.2.0.3\lib\net40-Client\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>packages\MetroFramework.Design.1.2.0.3\lib\net40\MetroFramework.Design.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>packages\MetroFramework.Fonts.1.2.0.3\lib\net40\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Runtime.InteropServices" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutMe.Designer.vb">
+      <DependentUpon>AboutMe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutMe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="CapturePicture.Designer.vb">
+      <DependentUpon>CapturePicture.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CapturePicture.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeInfo.Designer.vb">
+      <DependentUpon>ChangeInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePassword.Designer.vb">
+      <DependentUpon>ChangePassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatabaseDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DatabaseDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DatabaseDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EnrollmentData.designer.vb">
+      <DependentUpon>EnrollmentData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EnrollmentData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnrollmentDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EnrollmentDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EnrollmentDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EnrollmentDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LoginGuide.Designer.vb">
+      <DependentUpon>LoginGuide.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginGuide.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginHistory.Designer.vb">
+      <DependentUpon>LoginHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginHistoryGuide.Designer.vb">
+      <DependentUpon>LoginHistoryGuide.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginHistoryGuide.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFormGuide.Designer.vb">
+      <DependentUpon>MainFormGuide.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainFormGuide.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="PreEnrollmentDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PreEnrollmentDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PreEnrollmentDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PreEnrollmentDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Pre_enrollmentDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Pre_enrollmentDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarInfo.designer.vb">
+      <DependentUpon>RegistrarInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectStudents.designer.vb">
+      <DependentUpon>SelectStudents.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SelectStudents.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentEnrollmentGuide.Designer.vb">
+      <DependentUpon>StudentEnrollmentGuide.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StudentEnrollmentGuide.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentSubject.Designer.vb">
+      <DependentUpon>StudentSubject.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StudentSubject.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatabaseDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DatabaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseDataSet.vb">
+      <DependentUpon>DatabaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPassword.Designer.vb">
+      <DependentUpon>ForgotPassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.Designer.vb">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenarateID.Designer.vb">
+      <DependentUpon>GenarateID.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GenarateID.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="TeacherData.designer.vb">
+      <DependentUpon>TeacherData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeacherDataGuide.Designer.vb">
+      <DependentUpon>TeacherDataGuide.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherDataGuide.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInfo.Designer.vb">
+      <DependentUpon>UserInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintID.Designer.vb">
+      <DependentUpon>PrintID.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PrintID.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SchoolInfo.Designer.vb">
+      <DependentUpon>SchoolInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SchoolInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentEnrollment.Designer.vb">
+      <DependentUpon>StudentEnrollment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StudentEnrollment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentRegistered.Designer.vb">
+      <DependentUpon>StudentRegistered.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StudentRegistered.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentRequirements.Designer.vb">
+      <DependentUpon>StudentRequirements.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StudentRequirements.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Pre_enrollmentDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_Pre_enrollmentDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_Pre_enrollmentDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_Pre_enrollmentDataSet1.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutMe.resx">
+      <DependentUpon>AboutMe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapturePicture.resx">
+      <DependentUpon>CapturePicture.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeInfo.resx">
+      <DependentUpon>ChangeInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangePassword.resx">
+      <DependentUpon>ChangePassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnrollmentData.resx">
+      <DependentUpon>EnrollmentData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginGuide.resx">
+      <DependentUpon>LoginGuide.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginHistory.resx">
+      <DependentUpon>LoginHistory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginHistoryGuide.resx">
+      <DependentUpon>LoginHistoryGuide.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFormGuide.resx">
+      <DependentUpon>MainFormGuide.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrarInfo.resx">
+      <DependentUpon>RegistrarInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectStudents.resx">
+      <DependentUpon>SelectStudents.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentEnrollmentGuide.resx">
+      <DependentUpon>StudentEnrollmentGuide.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentSubject.resx">
+      <DependentUpon>StudentSubject.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgotPassword.resx">
+      <DependentUpon>ForgotPassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenarateID.resx">
+      <DependentUpon>GenarateID.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeacherData.resx">
+      <DependentUpon>TeacherData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeacherDataGuide.resx">
+      <DependentUpon>TeacherDataGuide.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInfo.resx">
+      <DependentUpon>UserInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintID.resx">
+      <DependentUpon>PrintID.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SchoolInfo.resx">
+      <DependentUpon>SchoolInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentEnrollment.resx">
+      <DependentUpon>StudentEnrollment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentRegistered.resx">
+      <DependentUpon>StudentRegistered.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentRequirements.resx">
+      <DependentUpon>StudentRequirements.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="DatabaseDataSet.xsc">
+      <DependentUpon>DatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DatabaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DatabaseDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DatabaseDataSet.xss">
+      <DependentUpon>DatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DatabaseDataSet1.xsc">
+      <DependentUpon>DatabaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DatabaseDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DatabaseDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DatabaseDataSet1.xss">
+      <DependentUpon>DatabaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DatabaseDataSet2.xsc">
+      <DependentUpon>DatabaseDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DatabaseDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DatabaseDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DatabaseDataSet2.xss">
+      <DependentUpon>DatabaseDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="EnrollmentDataSet.xsc">
+      <DependentUpon>EnrollmentDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="EnrollmentDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EnrollmentDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EnrollmentDataSet.xss">
+      <DependentUpon>EnrollmentDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="EnrollmentDataSet1.xsc">
+      <DependentUpon>EnrollmentDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="EnrollmentDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EnrollmentDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EnrollmentDataSet1.xss">
+      <DependentUpon>EnrollmentDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+    <None Include="PreEnrollmentDataset.xsc">
+      <DependentUpon>PreEnrollmentDataset.xsd</DependentUpon>
+    </None>
+    <None Include="PreEnrollmentDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PreEnrollmentDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PreEnrollmentDataset.xss">
+      <DependentUpon>PreEnrollmentDataset.xsd</DependentUpon>
+    </None>
+    <None Include="PreEnrollmentDataSet1.xsc">
+      <DependentUpon>PreEnrollmentDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="PreEnrollmentDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PreEnrollmentDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PreEnrollmentDataSet1.xss">
+      <DependentUpon>PreEnrollmentDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Pre_enrollmentDataSet.xsc">
+      <DependentUpon>Pre_enrollmentDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Pre_enrollmentDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Pre_enrollmentDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Pre_enrollmentDataSet.xss">
+      <DependentUpon>Pre_enrollmentDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Yasc Pre-enrollment System_TemporaryKey.pfx" />
+    <None Include="_Pre_enrollmentDataSet.xsc">
+      <DependentUpon>_Pre_enrollmentDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="_Pre_enrollmentDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_Pre_enrollmentDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_Pre_enrollmentDataSet.xss">
+      <DependentUpon>_Pre_enrollmentDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="_Pre_enrollmentDataSet1.xsc">
+      <DependentUpon>_Pre_enrollmentDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="_Pre_enrollmentDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_Pre_enrollmentDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_Pre_enrollmentDataSet1.xss">
+      <DependentUpon>_Pre_enrollmentDataSet1.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Database.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MetroFramework.txt" />
+    <None Include="bin\Debug\image\logo.png" />
+    <None Include="bin\Debug\image\people.png" />
+    <None Include="bin\Debug\image\date.png" />
+    <None Include="bin\Debug\image\time.png" />
+    <None Include="bin\Debug\image\exit.png" />
+    <None Include="bin\Debug\image\enrollment.png" />
+    <None Include="bin\Debug\image\attendance button.png" />
+    <None Include="bin\Debug\image\camera.png" />
+    <None Include="bin\Debug\image\browse.png" />
+    <None Include="bin\Debug\image\trash.png" />
+    <Content Include="logo.ico" />
+    <None Include="background.jpg" />
+    <None Include="bin\Debug\image\registration.png" />
+    <None Include="bin\Debug\image\user_info.png" />
+    <None Include="bin\Debug\image\attendance.png" />
+    <None Include="bin\Debug\image\logout.png" />
+    <None Include="bin\Debug\image\personal.png" />
+    <None Include="bin\Debug\image\select.png" />
+    <None Include="bin\Debug\image\remove.png" />
+    <None Include="bin\Debug\image\login-panel.jpg" />
+    <None Include="bin\Debug\image\signature.png" />
+    <None Include="bin\Debug\image\logo-edsci.png" />
+    <None Include="logo-edsci.png" />
+    <None Include="background blured.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Access.Dao">
+      <Guid>{4AC9E1DA-5BAD-4AC7-86E3-24F4CDCECA28}</Guid>
+      <VersionMajor>12</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SqlServer.SqlLocalDB.15.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2019 Express LocalDB</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="packages\MaterialDesignThemes.4.3.0\build\MaterialDesignThemes.targets" Condition="Exists('packages\MaterialDesignThemes.4.3.0\build\MaterialDesignThemes.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\MaterialDesignThemes.4.3.0\build\MaterialDesignThemes.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\MaterialDesignThemes.4.3.0\build\MaterialDesignThemes.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,1681 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+YASC Pre-enrollment Project
+</name>
+</assembly>
+<members>
+<member name="T:SchoolManagementSystem.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SchoolManagementSystem.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SchoolManagementSystem.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:SchoolManagementSystem.My.Resources.Resources._date">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SchoolManagementSystem.My.Resources.Resources._exit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SchoolManagementSystem.My.Resources.Resources._select">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SchoolManagementSystem.My.Resources.Resources.attendance">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SchoolManagementSystem.My.Resources.Resources.background">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SchoolManagementSystem.My.Resources.Resources.background_blured">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SchoolManagementSystem.My.Resources.Resources.browse">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SchoolManagementSystem.My.Resources.Resources.enrollment">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SchoolManagementSystem.My.Resources.Resources.login_panel">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SchoolManagementSystem.My.Resources.Resources.logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SchoolManagementSystem.My.Resources.Resources.logo_edsci">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SchoolManagementSystem.My.Resources.Resources.logo_edsci1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SchoolManagementSystem.My.Resources.Resources.logout">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SchoolManagementSystem.My.Resources.Resources.people">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SchoolManagementSystem.My.Resources.Resources.personal">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SchoolManagementSystem.My.Resources.Resources.registration">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SchoolManagementSystem.My.Resources.Resources.remove">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SchoolManagementSystem.My.Resources.Resources.signature">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SchoolManagementSystem.My.Resources.Resources.time">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SchoolManagementSystem.My.Resources.Resources.trash">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SchoolManagementSystem.My.Resources.Resources.user_info">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet1.AdminInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet1.EnrollmentDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet1.SchoolInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet1.SubjectDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet1.TeacherInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet1.AdminInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet1.EnrollmentDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet1.SchoolInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet1.SubjectRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet1.TeacherInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet1.AdminInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet1.EnrollmentDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet1.SchoolInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet1.SubjectRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet1.TeacherInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet1TableAdapters.AdminInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet1TableAdapters.EnrollmentDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet1TableAdapters.SchoolInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet1TableAdapters.SubjectTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet1TableAdapters.TeacherInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.DatabaseDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(SchoolManagementSystem.DatabaseDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.DatabaseDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(SchoolManagementSystem.DatabaseDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.DatabaseDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(SchoolManagementSystem.DatabaseDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.DatabaseDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.DatabaseDataSet1TableAdapters.TableAdapterManager.UpdateAll(SchoolManagementSystem.DatabaseDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet2.AdminInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet2.EnrollmentDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet2.SchoolInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet2.SubjectDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet2.TeacherInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet2.AdminInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet2.EnrollmentDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet2.SchoolInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet2.SubjectRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet2.TeacherInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet2.AdminInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet2.EnrollmentDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet2.SchoolInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet2.SubjectRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet2.TeacherInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet2TableAdapters.AdminInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet2TableAdapters.EnrollmentDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet2TableAdapters.SchoolInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet2TableAdapters.SubjectTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet2TableAdapters.TeacherInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.DatabaseDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(SchoolManagementSystem.DatabaseDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.DatabaseDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(SchoolManagementSystem.DatabaseDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.DatabaseDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(SchoolManagementSystem.DatabaseDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.DatabaseDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.DatabaseDataSet2TableAdapters.TableAdapterManager.UpdateAll(SchoolManagementSystem.DatabaseDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet.AdminInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet.EnrollmentDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet.SchoolInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet.SubjectDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet.TeacherInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet.AdminInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet.EnrollmentDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet.SchoolInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet.SubjectRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet.TeacherInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet.AdminInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet.EnrollmentDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet.SchoolInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet.SubjectRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet.TeacherInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSetTableAdapters.AdminInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSetTableAdapters.EnrollmentDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSetTableAdapters.SchoolInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSetTableAdapters.SubjectTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSetTableAdapters.TeacherInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.EnrollmentDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SchoolManagementSystem.EnrollmentDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.EnrollmentDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(SchoolManagementSystem.EnrollmentDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.EnrollmentDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(SchoolManagementSystem.EnrollmentDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.EnrollmentDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.EnrollmentDataSetTableAdapters.TableAdapterManager.UpdateAll(SchoolManagementSystem.EnrollmentDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet1.AdminInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet1.EnrollmentDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet1.SchoolInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet1.SubjectDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet1.TeacherInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet1.AdminInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet1.EnrollmentDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet1.SchoolInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet1.SubjectRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet1.TeacherInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet1.AdminInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet1.EnrollmentDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet1.SchoolInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet1.SubjectRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet1.TeacherInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet1TableAdapters.AdminInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet1TableAdapters.EnrollmentDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet1TableAdapters.SchoolInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet1TableAdapters.SubjectTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet1TableAdapters.TeacherInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.EnrollmentDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(SchoolManagementSystem.EnrollmentDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.EnrollmentDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(SchoolManagementSystem.EnrollmentDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.EnrollmentDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(SchoolManagementSystem.EnrollmentDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.EnrollmentDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.EnrollmentDataSet1TableAdapters.TableAdapterManager.UpdateAll(SchoolManagementSystem.EnrollmentDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.EnrollmentDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataset">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataset.AdminInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataset.EnrollmentDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataset.SchoolInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataset.SubjectDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataset.TeacherInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataset.AdminInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataset.EnrollmentDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataset.SchoolInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataset.SubjectRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataset.TeacherInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataset.AdminInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataset.EnrollmentDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataset.SchoolInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataset.SubjectRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataset.TeacherInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDatasetTableAdapters.AdminInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDatasetTableAdapters.EnrollmentDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDatasetTableAdapters.SchoolInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDatasetTableAdapters.SubjectTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDatasetTableAdapters.TeacherInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDatasetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.PreEnrollmentDatasetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SchoolManagementSystem.PreEnrollmentDataset,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.PreEnrollmentDatasetTableAdapters.TableAdapterManager.UpdateInsertedRows(SchoolManagementSystem.PreEnrollmentDataset,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.PreEnrollmentDatasetTableAdapters.TableAdapterManager.UpdateDeletedRows(SchoolManagementSystem.PreEnrollmentDataset,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.PreEnrollmentDatasetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.PreEnrollmentDatasetTableAdapters.TableAdapterManager.UpdateAll(SchoolManagementSystem.PreEnrollmentDataset)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDatasetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDatasetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataSet1.AdminInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataSet1.EnrollmentDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataSet1.SchoolInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataSet1.SubjectDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataSet1.TeacherInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataSet1.AdminInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataSet1.EnrollmentDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataSet1.SchoolInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataSet1.SubjectRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataSet1.TeacherInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataSet1.AdminInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataSet1.EnrollmentDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataSet1.SchoolInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataSet1.SubjectRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataSet1.TeacherInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataSet1TableAdapters.AdminInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataSet1TableAdapters.EnrollmentDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataSet1TableAdapters.SchoolInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataSet1TableAdapters.SubjectTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataSet1TableAdapters.TeacherInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.PreEnrollmentDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(SchoolManagementSystem.PreEnrollmentDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.PreEnrollmentDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(SchoolManagementSystem.PreEnrollmentDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.PreEnrollmentDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(SchoolManagementSystem.PreEnrollmentDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.PreEnrollmentDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.PreEnrollmentDataSet1TableAdapters.TableAdapterManager.UpdateAll(SchoolManagementSystem.PreEnrollmentDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.PreEnrollmentDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.Pre_enrollmentDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.Pre_enrollmentDataSet.AdminInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.Pre_enrollmentDataSet.EnrollmentDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.Pre_enrollmentDataSet.SchoolInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.Pre_enrollmentDataSet.SubjectDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.Pre_enrollmentDataSet.TeacherInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.Pre_enrollmentDataSet.AdminInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.Pre_enrollmentDataSet.EnrollmentDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.Pre_enrollmentDataSet.SchoolInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.Pre_enrollmentDataSet.SubjectRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.Pre_enrollmentDataSet.TeacherInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.Pre_enrollmentDataSet.AdminInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.Pre_enrollmentDataSet.EnrollmentDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.Pre_enrollmentDataSet.SchoolInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.Pre_enrollmentDataSet.SubjectRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.Pre_enrollmentDataSet.TeacherInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.Pre_enrollmentDataSetTableAdapters.AdminInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.Pre_enrollmentDataSetTableAdapters.EnrollmentDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.Pre_enrollmentDataSetTableAdapters.SchoolInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.Pre_enrollmentDataSetTableAdapters.SubjectTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.Pre_enrollmentDataSetTableAdapters.TeacherInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.Pre_enrollmentDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.Pre_enrollmentDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SchoolManagementSystem.Pre_enrollmentDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.Pre_enrollmentDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(SchoolManagementSystem.Pre_enrollmentDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.Pre_enrollmentDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(SchoolManagementSystem.Pre_enrollmentDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.Pre_enrollmentDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.Pre_enrollmentDataSetTableAdapters.TableAdapterManager.UpdateAll(SchoolManagementSystem.Pre_enrollmentDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.Pre_enrollmentDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.Pre_enrollmentDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet.AdminInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet.EnrollmentDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet.SchoolInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet.StudentDatabaseDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet.StudentInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet.StudentsDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet.TeacherDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet.TeacherInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet.AdminInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet.EnrollmentDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet.SchoolInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet.StudentDatabaseRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet.StudentInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet.StudentsDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet.TeacherDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet.TeacherInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet.AdminInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet.EnrollmentDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet.SchoolInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet.StudentDatabaseRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet.StudentInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet.StudentsDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet.TeacherDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSet.TeacherInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSetTableAdapters.AdminInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSetTableAdapters.EnrollmentDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSetTableAdapters.SchoolInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSetTableAdapters.StudentDatabaseTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSetTableAdapters.StudentInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSetTableAdapters.StudentsDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSetTableAdapters.TeacherDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSetTableAdapters.TeacherInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.DatabaseDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SchoolManagementSystem.DatabaseDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.DatabaseDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(SchoolManagementSystem.DatabaseDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.DatabaseDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(SchoolManagementSystem.DatabaseDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.DatabaseDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.DatabaseDataSetTableAdapters.TableAdapterManager.UpdateAll(SchoolManagementSystem.DatabaseDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.DatabaseDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet.AdminInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet.EnrollmentDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet.LogHistoryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet.SchoolInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet.SubjectDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet.TeacherInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet.AdminInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet.EnrollmentDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet.LogHistoryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet.SchoolInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet.SubjectRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet.TeacherInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet.AdminInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet.EnrollmentDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet.LogHistoryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet.SchoolInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet.SubjectRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet.TeacherInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSetTableAdapters.AdminInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSetTableAdapters.EnrollmentDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSetTableAdapters.LogHistoryTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSetTableAdapters.SchoolInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSetTableAdapters.SubjectTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSetTableAdapters.TeacherInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SchoolManagementSystem._Pre_enrollmentDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SchoolManagementSystem._Pre_enrollmentDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SchoolManagementSystem._Pre_enrollmentDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(SchoolManagementSystem._Pre_enrollmentDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SchoolManagementSystem._Pre_enrollmentDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(SchoolManagementSystem._Pre_enrollmentDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SchoolManagementSystem._Pre_enrollmentDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SchoolManagementSystem._Pre_enrollmentDataSetTableAdapters.TableAdapterManager.UpdateAll(SchoolManagementSystem._Pre_enrollmentDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet1.AdminInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet1.EnrollmentDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet1.LogHistoryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet1.SchoolInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet1.SubjectDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet1.TeacherInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet1.AdminInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet1.EnrollmentDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet1.LogHistoryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet1.SchoolInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet1.SubjectRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet1.TeacherInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet1.AdminInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet1.EnrollmentDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet1.LogHistoryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet1.SchoolInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet1.SubjectRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet1.TeacherInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet1TableAdapters.AdminInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet1TableAdapters.EnrollmentDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet1TableAdapters.LogHistoryTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet1TableAdapters.SchoolInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet1TableAdapters.SubjectTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet1TableAdapters.TeacherInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SchoolManagementSystem._Pre_enrollmentDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(SchoolManagementSystem._Pre_enrollmentDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SchoolManagementSystem._Pre_enrollmentDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(SchoolManagementSystem._Pre_enrollmentDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SchoolManagementSystem._Pre_enrollmentDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(SchoolManagementSystem._Pre_enrollmentDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SchoolManagementSystem._Pre_enrollmentDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SchoolManagementSystem._Pre_enrollmentDataSet1TableAdapters.TableAdapterManager.UpdateAll(SchoolManagementSystem._Pre_enrollmentDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SchoolManagementSystem._Pre_enrollmentDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
