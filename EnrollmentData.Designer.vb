@@ -890,6 +890,7 @@ Partial Class EnrollmentData
         IdentifierLabel.Size = New System.Drawing.Size(67, 17)
         IdentifierLabel.TabIndex = 284
         IdentifierLabel.Text = "Identifier:"
+        IdentifierLabel.Visible = False
         '
         'StatusLabel
         '
@@ -900,6 +901,7 @@ Partial Class EnrollmentData
         StatusLabel.Size = New System.Drawing.Size(50, 17)
         StatusLabel.TabIndex = 392
         StatusLabel.Text = "Status:"
+        StatusLabel.Visible = False
         '
         'ConditionLabel
         '
@@ -910,6 +912,7 @@ Partial Class EnrollmentData
         ConditionLabel.Size = New System.Drawing.Size(77, 17)
         ConditionLabel.TabIndex = 394
         ConditionLabel.Text = "Condition:"
+        ConditionLabel.Visible = False
         '
         'Requirement1Label
         '
@@ -920,6 +923,7 @@ Partial Class EnrollmentData
         Requirement1Label.Size = New System.Drawing.Size(101, 17)
         Requirement1Label.TabIndex = 396
         Requirement1Label.Text = "Requirement1:"
+        Requirement1Label.Visible = False
         '
         'Requirement2Label
         '
@@ -930,6 +934,7 @@ Partial Class EnrollmentData
         Requirement2Label.Size = New System.Drawing.Size(101, 17)
         Requirement2Label.TabIndex = 398
         Requirement2Label.Text = "Requirement2:"
+        Requirement2Label.Visible = False
         '
         'Requirement3Label
         '
@@ -940,6 +945,7 @@ Partial Class EnrollmentData
         Requirement3Label.Size = New System.Drawing.Size(101, 17)
         Requirement3Label.TabIndex = 400
         Requirement3Label.Text = "Requirement3:"
+        Requirement3Label.Visible = False
         '
         'Requirement4Label
         '
@@ -950,6 +956,7 @@ Partial Class EnrollmentData
         Requirement4Label.Size = New System.Drawing.Size(101, 17)
         Requirement4Label.TabIndex = 402
         Requirement4Label.Text = "Requirement4:"
+        Requirement4Label.Visible = False
         '
         'Label1
         '
@@ -1677,6 +1684,7 @@ Partial Class EnrollmentData
         Me.ConditionTextBox.Name = "ConditionTextBox"
         Me.ConditionTextBox.Size = New System.Drawing.Size(44, 23)
         Me.ConditionTextBox.TabIndex = 395
+        Me.ConditionTextBox.Visible = False
         '
         'Requirement1TextBox
         '
@@ -1687,6 +1695,7 @@ Partial Class EnrollmentData
         Me.Requirement1TextBox.Name = "Requirement1TextBox"
         Me.Requirement1TextBox.Size = New System.Drawing.Size(44, 23)
         Me.Requirement1TextBox.TabIndex = 397
+        Me.Requirement1TextBox.Visible = False
         '
         'Requirement2TextBox
         '
@@ -1697,6 +1706,7 @@ Partial Class EnrollmentData
         Me.Requirement2TextBox.Name = "Requirement2TextBox"
         Me.Requirement2TextBox.Size = New System.Drawing.Size(44, 23)
         Me.Requirement2TextBox.TabIndex = 399
+        Me.Requirement2TextBox.Visible = False
         '
         'Requirement3TextBox
         '
@@ -1707,6 +1717,7 @@ Partial Class EnrollmentData
         Me.Requirement3TextBox.Name = "Requirement3TextBox"
         Me.Requirement3TextBox.Size = New System.Drawing.Size(44, 23)
         Me.Requirement3TextBox.TabIndex = 401
+        Me.Requirement3TextBox.Visible = False
         '
         'Requirement4TextBox
         '
@@ -1717,6 +1728,7 @@ Partial Class EnrollmentData
         Me.Requirement4TextBox.Name = "Requirement4TextBox"
         Me.Requirement4TextBox.Size = New System.Drawing.Size(44, 23)
         Me.Requirement4TextBox.TabIndex = 403
+        Me.Requirement4TextBox.Visible = False
         '
         'Label63
         '
@@ -1994,7 +2006,7 @@ Partial Class EnrollmentData
         DataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText
         DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
         Me.AdvancedDataGridView1.RowHeadersDefaultCellStyle = DataGridViewCellStyle4
-        Me.AdvancedDataGridView1.Size = New System.Drawing.Size(833, 325)
+        Me.AdvancedDataGridView1.Size = New System.Drawing.Size(850, 325)
         Me.AdvancedDataGridView1.TabIndex = 134
         Me.AdvancedDataGridView1.TimeFilter = False
         '
@@ -2668,6 +2680,7 @@ Partial Class EnrollmentData
         Me.IdentifierDateTimePicker.Name = "IdentifierDateTimePicker"
         Me.IdentifierDateTimePicker.Size = New System.Drawing.Size(200, 23)
         Me.IdentifierDateTimePicker.TabIndex = 285
+        Me.IdentifierDateTimePicker.Visible = False
         '
         'StatusTextBox
         '
@@ -2677,6 +2690,7 @@ Partial Class EnrollmentData
         Me.StatusTextBox.Name = "StatusTextBox"
         Me.StatusTextBox.Size = New System.Drawing.Size(200, 23)
         Me.StatusTextBox.TabIndex = 393
+        Me.StatusTextBox.Visible = False
         '
         'PictureBox1
         '

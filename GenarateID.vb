@@ -556,7 +556,7 @@ Public Class GenarateID
             End If
         Catch ex As Exception
             MsgBox(ex.Message(), MsgBoxStyle.Critical, "Error Student Data.")
-            Exit Try
+            Exit Sub
 
         End Try
 
@@ -581,15 +581,13 @@ Public Class GenarateID
             End If
         Catch ex As Exception
             MsgBox(ex.Message(), MsgBoxStyle.Critical, "Error Registrar Data.")
-            Exit Try
+            Exit Sub
 
         End Try
 
     End Sub
 
     Private Sub GenarateID_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-        MsgBox(EnrollmentData.cmbStudentNum.Text)
 
         FillDataID()
 

@@ -1936,7 +1936,7 @@ Partial Class StudentEnrollment
         Me.dtbIdentify.CustomFormat = "MM/dd/yyyy hh:mm:ss tt"
         Me.dtbIdentify.Font = New System.Drawing.Font("Palatino Linotype", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dtbIdentify.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.dtbIdentify.Location = New System.Drawing.Point(734, 48)
+        Me.dtbIdentify.Location = New System.Drawing.Point(1000, 48)
         Me.dtbIdentify.MaxDate = New Date(2099, 12, 31, 0, 0, 0, 0)
         Me.dtbIdentify.MinDate = New Date(1900, 1, 1, 0, 0, 0, 0)
         Me.dtbIdentify.Name = "dtbIdentify"
