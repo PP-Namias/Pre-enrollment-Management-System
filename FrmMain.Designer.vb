@@ -47,7 +47,6 @@ Partial Class MainForm
         Me.txtRemark = New System.Windows.Forms.TextBox()
         Me.btnEnrollmentPortal = New System.Windows.Forms.Button()
         Me.btnStatus = New System.Windows.Forms.Button()
-        Me.btnSchoolDatabase = New System.Windows.Forms.Button()
         Me.Username = New System.Windows.Forms.Label()
         Me.IDPicture = New System.Windows.Forms.PictureBox()
         Me.btnEnrollmentDatabase = New System.Windows.Forms.Button()
@@ -92,14 +91,12 @@ Partial Class MainForm
         Me.GuestToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
         Me.EnrollmentPortalToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
         Me.picClose = New System.Windows.Forms.PictureBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PicMinimize = New System.Windows.Forms.PictureBox()
         Me.StatusStrip.SuspendLayout()
         Me.Panel1.SuspendLayout()
         CType(Me.IDPicture, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.picClose, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PicMinimize, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -240,7 +237,6 @@ Partial Class MainForm
         Me.Panel1.Controls.Add(Me.txtRemark)
         Me.Panel1.Controls.Add(Me.btnEnrollmentPortal)
         Me.Panel1.Controls.Add(Me.btnStatus)
-        Me.Panel1.Controls.Add(Me.btnSchoolDatabase)
         Me.Panel1.Controls.Add(Me.Username)
         Me.Panel1.Controls.Add(Me.IDPicture)
         Me.Panel1.Controls.Add(Me.btnEnrollmentDatabase)
@@ -347,23 +343,6 @@ Partial Class MainForm
         Me.btnStatus.TabIndex = 24
         Me.btnStatus.Text = "Guest"
         Me.btnStatus.UseVisualStyleBackColor = False
-        '
-        'btnSchoolDatabase
-        '
-        Me.btnSchoolDatabase.BackColor = System.Drawing.Color.MediumBlue
-        Me.btnSchoolDatabase.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btnSchoolDatabase.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnSchoolDatabase.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSchoolDatabase.ForeColor = System.Drawing.Color.White
-        Me.btnSchoolDatabase.Image = CType(resources.GetObject("btnSchoolDatabase.Image"), System.Drawing.Image)
-        Me.btnSchoolDatabase.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnSchoolDatabase.Location = New System.Drawing.Point(10, 480)
-        Me.btnSchoolDatabase.Name = "btnSchoolDatabase"
-        Me.btnSchoolDatabase.Size = New System.Drawing.Size(180, 35)
-        Me.btnSchoolDatabase.TabIndex = 27
-        Me.btnSchoolDatabase.Text = "&School Data"
-        Me.btnSchoolDatabase.UseVisualStyleBackColor = False
-        Me.btnSchoolDatabase.Visible = False
         '
         'Username
         '
@@ -709,17 +688,6 @@ Partial Class MainForm
         Me.picClose.TabIndex = 2
         Me.picClose.TabStop = False
         '
-        'PictureBox1
-        '
-        Me.PictureBox1.BackColor = System.Drawing.Color.DeepSkyBlue
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(1157, 36)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(30, 30)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 25
-        Me.PictureBox1.TabStop = False
-        '
         'PicMinimize
         '
         Me.PicMinimize.AccessibleRole = System.Windows.Forms.AccessibleRole.Grip
@@ -741,7 +709,6 @@ Partial Class MainForm
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1199, 701)
         Me.Controls.Add(Me.PicMinimize)
-        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.picClose)
         Me.Controls.Add(Me.StatusStrip)
@@ -763,7 +730,6 @@ Partial Class MainForm
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         CType(Me.picClose, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PicMinimize, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -810,7 +776,6 @@ Partial Class MainForm
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents AdminDataMenuItem As ToolStripMenuItem
     Friend WithEvents btnPrintID As Button
-    Friend WithEvents btnSchoolDatabase As Button
     Friend WithEvents btnEnrollmentDatabase As Button
     Friend WithEvents btnTeacherDatabase As Button
     Friend WithEvents GenerateIDToolStripMenuItem1 As ToolStripMenuItem
@@ -830,7 +795,6 @@ Partial Class MainForm
     Friend WithEvents GuestToolStripMenuItem3 As ToolStripMenuItem
     Friend WithEvents EnrollmentPortalToolStripMenuItem2 As ToolStripMenuItem
     Friend WithEvents EnrollmentPortalToolStripMenuItem3 As ToolStripMenuItem
-    Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents txtRemark As TextBox
     Friend WithEvents ToolStripStatusLabel9 As ToolStripStatusLabel
     Friend WithEvents ToolStripStatusLabel10 As ToolStripStatusLabel

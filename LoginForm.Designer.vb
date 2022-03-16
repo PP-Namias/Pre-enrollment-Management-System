@@ -723,6 +723,7 @@ Partial Class LoginForm
         Me.MaximizeBox = False
         Me.Name = "LoginForm"
         Me.Resizable = False
+        Me.Text = "Login Form"
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
         Me.TabPage1.PerformLayout()

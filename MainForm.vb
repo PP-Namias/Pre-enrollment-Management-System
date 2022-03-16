@@ -104,28 +104,6 @@ Public Class MainForm
 
     End Sub
 
-    Private Sub RoundButtonSchoolDatabase(btn As Button)
-
-        btn.FlatStyle = FlatStyle.Flat
-        btn.FlatAppearance.BorderSize = 0
-        btn.Cursor = Cursors.Hand
-
-        Dim Raduis As New Drawing2D.GraphicsPath
-
-        Raduis.StartFigure()
-        Raduis.AddArc(New Rectangle(0, 0, 20, 20), 180, 90)
-        Raduis.AddLine(10, 0, btn.Width - 20, 0)
-        Raduis.AddArc(New Rectangle(btn.Width - 20, 0, 20, 20), -90, 90)
-        Raduis.AddLine(btnSchoolDatabase.Width, 20, btn.Width, btn.Height - 10)
-        Raduis.AddArc(New Rectangle(btn.Width - 25, btn.Height - 25, 25, 25), 0, 90)
-        Raduis.AddLine(btn.Width - 10, btn.Width, 20, btn.Height)
-        Raduis.AddArc(New Rectangle(0, btn.Height - 20, 20, 20), 90, 90)
-        Raduis.CloseFigure()
-
-        btnSchoolDatabase.Region = New Region(Raduis)
-
-    End Sub
-
     Private Sub RoundButtonPrintID(btn As Button)
 
         btn.FlatStyle = FlatStyle.Flat
@@ -195,7 +173,6 @@ Public Class MainForm
     Public Sub UserData()
 
         UserInfo.Dispose()
-        SchoolInfo.Dispose()
         GenarateID.Dispose()
         PrintID.Dispose()
         TeacherData.Dispose()
@@ -212,11 +189,7 @@ Public Class MainForm
         ForgotPassword.Dispose()
         GenarateID.Dispose()
         LoginGuide.Dispose()
-        MainFormGuide.Dispose()
         PrintID.Dispose()
-        RegistrarInfo.Dispose()
-        SchoolInfo.Dispose()
-        SelectStudents.Dispose()
         StudentEnrollment.Dispose()
         StudentEnrollmentGuide.Dispose()
         StudentSubject.Dispose()
@@ -224,8 +197,6 @@ Public Class MainForm
         StudentRegistered.Dispose()
         TeacherDataGuide.Dispose()
         UserInfo.Dispose()
-
-        PictureBox1.Visible = False
 
         Dim User As New UserInfo
         Dispose()
@@ -491,14 +462,11 @@ Public Class MainForm
         RoundButtonEnrollmentPortal(btnEnrollmentPortal)
         RoundButtonEnrollmentDatabase(btnEnrollmentDatabase)
         RoundButtonTeacherDatabase(btnTeacherDatabase)
-        RoundButtonSchoolDatabase(btnSchoolDatabase)
         RoundButtonPrintID(btnPrintID)
         RoundButtonLoginHistory(btnLoginHistory)
         RoundButtonAboutMe(btnAboutMe)
 
         txtTimeOut.Text = Format(Now, "h:mm:ss tt")
-
-        PictureBox1.Visible = True
 
         DateToolStripStatusLabel.Text = DateTime.Now.ToString("MMM / dd / yyyy")
         DateToolStripStatusLabel.ForeColor = Color.White
@@ -532,7 +500,6 @@ Public Class MainForm
                     If (btnStatus.Text = "Registrar" Or btnStatus.Text = "Supervisor") = True Then
 
                         btnTeacherDatabase.Visible = False
-                        btnSchoolDatabase.Visible = False
                         TeacherDatabaseToolStripMenuItem.Visible = False
                         SchoolDatabaseToolStripMenuItem.Visible = False
                         btnPrintID.Visible = True
@@ -553,7 +520,6 @@ Public Class MainForm
                     If btnStatus.Text = "Super Admin" = True Then
 
                         btnTeacherDatabase.Visible = True
-                        btnSchoolDatabase.Visible = True
                         TeacherDatabaseToolStripMenuItem.Visible = True
                         SchoolDatabaseToolStripMenuItem.Visible = True
                         btnPrintID.Visible = True
@@ -615,7 +581,6 @@ Public Class MainForm
 
                     btnTeacherDatabase.Visible = False
                     btnEnrollmentDatabase.Visible = False
-                    btnSchoolDatabase.Visible = False
                     btnPrintID.Visible = False
                     btnLoginHistory.Visible = False
 
@@ -642,7 +607,6 @@ Public Class MainForm
                 AdministratorToolStripMenuItem.Visible = False
                 btnTeacherDatabase.Visible = False
                 btnEnrollmentDatabase.Visible = False
-                btnSchoolDatabase.Visible = False
                 btnPrintID.Visible = False
                 btnLoginHistory.Visible = False
 
@@ -678,8 +642,6 @@ Public Class MainForm
 
     Private Sub EnrollmentPortalToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles EnrollmentPortalToolStripMenuItem.Click
 
-        PictureBox1.Visible = False
-
         StudentEnrollment.Show()
 
     End Sub
@@ -691,17 +653,13 @@ Public Class MainForm
 
     Private Sub BtnEnrollment_Click(sender As Object, e As EventArgs) Handles btnEnrollmentPortal.Click
 
-        PictureBox1.Visible = False
-
         StudentEnrollment.Show()
 
     End Sub
 
     Private Sub BtnTeacherDatabase_Click(sender As Object, e As EventArgs) Handles btnTeacherDatabase.Click
 
-        PictureBox1.Visible = False
         UserInfo.Hide()
-        SchoolInfo.Hide()
         GenarateID.Hide()
         PrintID.Hide()
         TeacherData.Hide()
@@ -713,7 +671,6 @@ Public Class MainForm
         LoginHistory.Hide()
 
         UserInfo.Dispose()
-        SchoolInfo.Dispose()
         GenarateID.Dispose()
         PrintID.Dispose()
         TeacherData.Dispose()
@@ -730,11 +687,7 @@ Public Class MainForm
         ForgotPassword.Dispose()
         GenarateID.Dispose()
         LoginGuide.Dispose()
-        MainFormGuide.Dispose()
         PrintID.Dispose()
-        RegistrarInfo.Dispose()
-        SchoolInfo.Dispose()
-        SelectStudents.Dispose()
         StudentEnrollment.Dispose()
         StudentEnrollmentGuide.Dispose()
         StudentSubject.Dispose()
@@ -754,9 +707,7 @@ Public Class MainForm
 
     Private Sub BtnEnrollmentDatabase_Click(sender As Object, e As EventArgs) Handles btnEnrollmentDatabase.Click
 
-        PictureBox1.Visible = False
         UserInfo.Hide()
-        SchoolInfo.Hide()
         GenarateID.Hide()
         PrintID.Hide()
         TeacherData.Hide()
@@ -768,7 +719,6 @@ Public Class MainForm
         LoginHistory.Hide()
 
         UserInfo.Dispose()
-        SchoolInfo.Dispose()
         GenarateID.Dispose()
         PrintID.Dispose()
         TeacherData.Dispose()
@@ -785,11 +735,7 @@ Public Class MainForm
         ForgotPassword.Dispose()
         GenarateID.Dispose()
         LoginGuide.Dispose()
-        MainFormGuide.Dispose()
         PrintID.Dispose()
-        RegistrarInfo.Dispose()
-        SchoolInfo.Dispose()
-        SelectStudents.Dispose()
         StudentEnrollment.Dispose()
         StudentEnrollmentGuide.Dispose()
         StudentSubject.Dispose()
@@ -807,64 +753,7 @@ Public Class MainForm
 
     End Sub
 
-    Private Sub BtnSchoolDatabase_Click(sender As Object, e As EventArgs) Handles btnSchoolDatabase.Click
-
-        PictureBox1.Visible = False
-        UserInfo.Hide()
-        SchoolInfo.Hide()
-        GenarateID.Hide()
-        PrintID.Hide()
-        TeacherData.Hide()
-        StudentEnrollment.Hide()
-        StudentSubject.Hide()
-        StudentRequirements.Hide()
-        StudentRegistered.Hide()
-        AboutMe.Hide()
-        LoginHistory.Hide()
-
-        UserInfo.Dispose()
-        SchoolInfo.Dispose()
-        GenarateID.Dispose()
-        PrintID.Dispose()
-        TeacherData.Dispose()
-        StudentEnrollment.Dispose()
-        StudentSubject.Dispose()
-        StudentRequirements.Dispose()
-        StudentRegistered.Dispose()
-        AboutMe.Dispose()
-        LoginHistory.Dispose()
-        AboutMe.Dispose()
-        CapturePicture.Dispose()
-        ChangeInfo.Dispose()
-        ChangePassword.Dispose()
-        ForgotPassword.Dispose()
-        GenarateID.Dispose()
-        LoginGuide.Dispose()
-        MainFormGuide.Dispose()
-        PrintID.Dispose()
-        RegistrarInfo.Dispose()
-        SchoolInfo.Dispose()
-        SelectStudents.Dispose()
-        StudentEnrollment.Dispose()
-        StudentEnrollmentGuide.Dispose()
-        StudentSubject.Dispose()
-        StudentRequirements.Dispose()
-        StudentRegistered.Dispose()
-        TeacherDataGuide.Dispose()
-        UserInfo.Dispose()
-
-        Dim newmdichild As New SchoolInfo With {
-            .MdiParent = Me
-        }
-        newmdichild.Show()
-
-        OpenChildForm(New SchoolInfo())
-
-    End Sub
-
     Private Sub BtnPrintID_Click(sender As Object, e As EventArgs) Handles btnPrintID.Click
-
-        PictureBox1.Visible = False
 
         GenarateID.Show()
 
@@ -872,9 +761,7 @@ Public Class MainForm
 
     Private Sub ToolStripMenuItem10_Click(sender As Object, e As EventArgs) Handles EnrollmentDataMenuItem10.Click
 
-        PictureBox1.Visible = False
         UserInfo.Hide()
-        SchoolInfo.Hide()
         GenarateID.Hide()
         PrintID.Hide()
         TeacherData.Hide()
@@ -886,7 +773,6 @@ Public Class MainForm
         LoginHistory.Hide()
 
         UserInfo.Dispose()
-        SchoolInfo.Dispose()
         GenarateID.Dispose()
         PrintID.Dispose()
         TeacherData.Dispose()
@@ -903,11 +789,7 @@ Public Class MainForm
         ForgotPassword.Dispose()
         GenarateID.Dispose()
         LoginGuide.Dispose()
-        MainFormGuide.Dispose()
         PrintID.Dispose()
-        RegistrarInfo.Dispose()
-        SchoolInfo.Dispose()
-        SelectStudents.Dispose()
         StudentEnrollment.Dispose()
         StudentEnrollmentGuide.Dispose()
         StudentSubject.Dispose()
@@ -927,9 +809,7 @@ Public Class MainForm
 
     Private Sub DToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TeacherDataMenuItem.Click
 
-        PictureBox1.Visible = False
         UserInfo.Hide()
-        SchoolInfo.Hide()
         GenarateID.Hide()
         PrintID.Hide()
         TeacherData.Hide()
@@ -941,7 +821,6 @@ Public Class MainForm
         LoginHistory.Hide()
 
         UserInfo.Dispose()
-        SchoolInfo.Dispose()
         GenarateID.Dispose()
         PrintID.Dispose()
         TeacherData.Dispose()
@@ -958,11 +837,7 @@ Public Class MainForm
         ForgotPassword.Dispose()
         GenarateID.Dispose()
         LoginGuide.Dispose()
-        MainFormGuide.Dispose()
         PrintID.Dispose()
-        RegistrarInfo.Dispose()
-        SchoolInfo.Dispose()
-        SelectStudents.Dispose()
         StudentEnrollment.Dispose()
         StudentEnrollmentGuide.Dispose()
         StudentSubject.Dispose()
@@ -982,17 +857,13 @@ Public Class MainForm
 
     Private Sub EnrollmentPortalToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles EnrollmentPortalToolStripMenuItem1.Click
 
-        PictureBox1.Visible = False
-
         StudentEnrollment.Show()
 
     End Sub
 
     Private Sub EnrollmentDatabaseToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles EnrollmentDatabaseToolStripMenuItem.Click
 
-        PictureBox1.Visible = False
         UserInfo.Hide()
-        SchoolInfo.Hide()
         GenarateID.Hide()
         PrintID.Hide()
         TeacherData.Hide()
@@ -1004,7 +875,6 @@ Public Class MainForm
         LoginHistory.Hide()
 
         UserInfo.Dispose()
-        SchoolInfo.Dispose()
         GenarateID.Dispose()
         PrintID.Dispose()
         TeacherData.Dispose()
@@ -1021,11 +891,7 @@ Public Class MainForm
         ForgotPassword.Dispose()
         GenarateID.Dispose()
         LoginGuide.Dispose()
-        MainFormGuide.Dispose()
         PrintID.Dispose()
-        RegistrarInfo.Dispose()
-        SchoolInfo.Dispose()
-        SelectStudents.Dispose()
         StudentEnrollment.Dispose()
         StudentEnrollmentGuide.Dispose()
         StudentSubject.Dispose()
@@ -1045,9 +911,7 @@ Public Class MainForm
 
     Private Sub TeacherDatabaseToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TeacherDatabaseToolStripMenuItem.Click
 
-        PictureBox1.Visible = False
         UserInfo.Hide()
-        SchoolInfo.Hide()
         GenarateID.Hide()
         PrintID.Hide()
         TeacherData.Hide()
@@ -1059,7 +923,6 @@ Public Class MainForm
         LoginHistory.Hide()
 
         UserInfo.Dispose()
-        SchoolInfo.Dispose()
         GenarateID.Dispose()
         PrintID.Dispose()
         TeacherData.Dispose()
@@ -1076,11 +939,7 @@ Public Class MainForm
         ForgotPassword.Dispose()
         GenarateID.Dispose()
         LoginGuide.Dispose()
-        MainFormGuide.Dispose()
         PrintID.Dispose()
-        RegistrarInfo.Dispose()
-        SchoolInfo.Dispose()
-        SelectStudents.Dispose()
         StudentEnrollment.Dispose()
         StudentEnrollmentGuide.Dispose()
         StudentSubject.Dispose()
@@ -1098,66 +957,10 @@ Public Class MainForm
 
     End Sub
 
-    Private Sub SchoolDatabaseToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SchoolDatabaseToolStripMenuItem.Click
-
-        PictureBox1.Visible = False
-        UserInfo.Hide()
-        SchoolInfo.Hide()
-        GenarateID.Hide()
-        PrintID.Hide()
-        TeacherData.Hide()
-        StudentEnrollment.Hide()
-        StudentSubject.Hide()
-        StudentRequirements.Hide()
-        StudentRegistered.Hide()
-        AboutMe.Hide()
-        LoginHistory.Hide()
-
-        UserInfo.Dispose()
-        SchoolInfo.Dispose()
-        GenarateID.Dispose()
-        PrintID.Dispose()
-        TeacherData.Dispose()
-        StudentEnrollment.Dispose()
-        StudentSubject.Dispose()
-        StudentRequirements.Dispose()
-        StudentRegistered.Dispose()
-        AboutMe.Dispose()
-        LoginHistory.Dispose()
-        AboutMe.Dispose()
-        CapturePicture.Dispose()
-        ChangeInfo.Dispose()
-        ChangePassword.Dispose()
-        ForgotPassword.Dispose()
-        GenarateID.Dispose()
-        LoginGuide.Dispose()
-        MainFormGuide.Dispose()
-        PrintID.Dispose()
-        RegistrarInfo.Dispose()
-        SchoolInfo.Dispose()
-        SelectStudents.Dispose()
-        StudentEnrollment.Dispose()
-        StudentEnrollmentGuide.Dispose()
-        StudentSubject.Dispose()
-        StudentRequirements.Dispose()
-        StudentRegistered.Dispose()
-        TeacherDataGuide.Dispose()
-        UserInfo.Dispose()
-
-        Dim newmdichild As New SchoolInfo With {
-            .MdiParent = Me
-        }
-        newmdichild.Show()
-
-        OpenChildForm(New SchoolInfo())
-
-    End Sub
 
     Private Sub BtnAboutMe_Click(sender As Object, e As EventArgs) Handles btnAboutMe.Click
 
-        PictureBox1.Visible = False
         UserInfo.Hide()
-        SchoolInfo.Hide()
         GenarateID.Hide()
         PrintID.Hide()
         TeacherData.Hide()
@@ -1169,7 +972,6 @@ Public Class MainForm
         LoginHistory.Hide()
 
         UserInfo.Dispose()
-        SchoolInfo.Dispose()
         GenarateID.Dispose()
         PrintID.Dispose()
         TeacherData.Dispose()
@@ -1186,11 +988,7 @@ Public Class MainForm
         ForgotPassword.Dispose()
         GenarateID.Dispose()
         LoginGuide.Dispose()
-        MainFormGuide.Dispose()
         PrintID.Dispose()
-        RegistrarInfo.Dispose()
-        SchoolInfo.Dispose()
-        SelectStudents.Dispose()
         StudentEnrollment.Dispose()
         StudentEnrollmentGuide.Dispose()
         StudentSubject.Dispose()
@@ -1210,9 +1008,7 @@ Public Class MainForm
 
     Private Sub BtnLoginHistory_Click(sender As Object, e As EventArgs) Handles btnLoginHistory.Click
 
-        PictureBox1.Visible = False
         UserInfo.Hide()
-        SchoolInfo.Hide()
         GenarateID.Hide()
         PrintID.Hide()
         TeacherData.Hide()
@@ -1224,7 +1020,6 @@ Public Class MainForm
         LoginHistory.Hide()
 
         UserInfo.Dispose()
-        SchoolInfo.Dispose()
         GenarateID.Dispose()
         PrintID.Dispose()
         TeacherData.Dispose()
@@ -1241,11 +1036,7 @@ Public Class MainForm
         ForgotPassword.Dispose()
         GenarateID.Dispose()
         LoginGuide.Dispose()
-        MainFormGuide.Dispose()
         PrintID.Dispose()
-        RegistrarInfo.Dispose()
-        SchoolInfo.Dispose()
-        SelectStudents.Dispose()
         StudentEnrollment.Dispose()
         StudentEnrollmentGuide.Dispose()
         StudentSubject.Dispose()
@@ -1265,15 +1056,11 @@ Public Class MainForm
 
     Private Sub PrintIDToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PrintIDToolStripMenuItem.Click
 
-        PictureBox1.Visible = False
-
         GenarateID.Show()
 
     End Sub
 
     Private Sub EnrollmentPortalToolStripMenuItem2_Click(sender As Object, e As EventArgs) Handles EnrollmentPortalToolStripMenuItem2.Click
-
-        PictureBox1.Visible = False
 
         StudentEnrollment.Show()
 
@@ -1281,17 +1068,7 @@ Public Class MainForm
 
     Private Sub EnrollmentPortalToolStripMenuItem3_Click(sender As Object, e As EventArgs) Handles EnrollmentPortalToolStripMenuItem3.Click
 
-        PictureBox1.Visible = False
-
         StudentEnrollment.Show()
-
-    End Sub
-
-    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
-
-        PictureBox1.Visible = False
-
-        MainFormGuide.Show()
 
     End Sub
 

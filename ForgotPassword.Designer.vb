@@ -27,21 +27,21 @@ Partial Class ForgotPassword
         Me.LinkLabel2 = New System.Windows.Forms.LinkLabel()
         Me.txtUserID = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.btnClose = New System.Windows.Forms.Button()
-        Me.btnClear = New System.Windows.Forms.Button()
-        Me.btnCheck = New System.Windows.Forms.Button()
         Me.txtPOB = New System.Windows.Forms.TextBox()
         Me.txtUserName = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.label1 = New System.Windows.Forms.Label()
+        Me.btnClose = New System.Windows.Forms.Button()
+        Me.btnClear = New System.Windows.Forms.Button()
+        Me.btnCheck = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'dtpDOB
         '
         Me.dtpDOB.CustomFormat = "MMM / dd / yyyy"
         Me.dtpDOB.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.dtpDOB.Format = System.Windows.Forms.DateTimePickerFormat.Custom
+        Me.dtpDOB.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
         Me.dtpDOB.Location = New System.Drawing.Point(147, 135)
         Me.dtpDOB.Name = "dtpDOB"
         Me.dtpDOB.Size = New System.Drawing.Size(175, 23)
@@ -66,7 +66,6 @@ Partial Class ForgotPassword
         'txtUserID
         '
         Me.txtUserID.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtUserID.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.txtUserID.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtUserID.Location = New System.Drawing.Point(147, 77)
         Me.txtUserID.Name = "txtUserID"
@@ -82,6 +81,54 @@ Partial Class ForgotPassword
         Me.Label4.Size = New System.Drawing.Size(71, 21)
         Me.Label4.TabIndex = 138
         Me.Label4.Text = "User ID :"
+        '
+        'txtPOB
+        '
+        Me.txtPOB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtPOB.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPOB.Location = New System.Drawing.Point(147, 164)
+        Me.txtPOB.Name = "txtPOB"
+        Me.txtPOB.Size = New System.Drawing.Size(175, 23)
+        Me.txtPOB.TabIndex = 3
+        '
+        'txtUserName
+        '
+        Me.txtUserName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtUserName.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtUserName.Location = New System.Drawing.Point(147, 106)
+        Me.txtUserName.Name = "txtUserName"
+        Me.txtUserName.Size = New System.Drawing.Size(175, 23)
+        Me.txtUserName.TabIndex = 1
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(23, 166)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(118, 21)
+        Me.Label3.TabIndex = 137
+        Me.Label3.Text = "Place of Birth :"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(23, 138)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(115, 21)
+        Me.Label2.TabIndex = 136
+        Me.Label2.Text = "Date of Birth :"
+        '
+        'label1
+        '
+        Me.label1.AutoSize = True
+        Me.label1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.label1.Location = New System.Drawing.Point(23, 108)
+        Me.label1.Name = "label1"
+        Me.label1.Size = New System.Drawing.Size(106, 21)
+        Me.label1.TabIndex = 135
+        Me.label1.Text = "Your Name :"
         '
         'btnClose
         '
@@ -128,57 +175,7 @@ Partial Class ForgotPassword
         Me.btnCheck.Text = "     &Check"
         Me.btnCheck.UseVisualStyleBackColor = False
         '
-        'txtPOB
-        '
-        Me.txtPOB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtPOB.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.txtPOB.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPOB.Location = New System.Drawing.Point(147, 164)
-        Me.txtPOB.Name = "txtPOB"
-        Me.txtPOB.Size = New System.Drawing.Size(175, 23)
-        Me.txtPOB.TabIndex = 3
-        '
-        'txtUserName
-        '
-        Me.txtUserName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtUserName.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.txtUserName.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtUserName.Location = New System.Drawing.Point(147, 106)
-        Me.txtUserName.Name = "txtUserName"
-        Me.txtUserName.Size = New System.Drawing.Size(175, 23)
-        Me.txtUserName.TabIndex = 1
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(23, 166)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(118, 21)
-        Me.Label3.TabIndex = 137
-        Me.Label3.Text = "Place of Birth :"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(23, 138)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(115, 21)
-        Me.Label2.TabIndex = 136
-        Me.Label2.Text = "Date of Birth :"
-        '
-        'label1
-        '
-        Me.label1.AutoSize = True
-        Me.label1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label1.Location = New System.Drawing.Point(23, 108)
-        Me.label1.Name = "label1"
-        Me.label1.Size = New System.Drawing.Size(106, 21)
-        Me.label1.TabIndex = 135
-        Me.label1.Text = "Your Name :"
-        '
-        'ForgetPassForm
+        'ForgotPassword
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -197,7 +194,7 @@ Partial Class ForgotPassword
         Me.Controls.Add(Me.txtPOB)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
-        Me.Name = "ForgetPassForm"
+        Me.Name = "ForgotPassword"
         Me.Resizable = False
         Me.Text = "Forgot Password"
         Me.ResumeLayout(False)

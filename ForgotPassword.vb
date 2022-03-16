@@ -1,4 +1,5 @@
 ﻿Imports System.Data.OleDb
+Imports System.Text
 
 Public Class ForgotPassword
 
@@ -138,7 +139,7 @@ Public Class ForgotPassword
 
                     If UCase(TeacherDataReader(1)) = UCase(txtUserName.Text) And UCase(TeacherDataReader(2)) = UCase(dtpDOB.Text) And UCase(TeacherDataReader(3)) = UCase(txtPOB.Text) Then
 
-                        MessageBox.Show("Your password is  .:{ '" & UCase(TeacherDataReader(4)).ToString() & "' ]:. ", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                        MessageBox.Show("Your password is  .:{ '" & Decrypt(TeacherDataReader(4).ToString()) & "' ]:. ", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information)
                         LinkLabel2.Visible = True
                         TeacherConnection.Close()
 
@@ -176,7 +177,7 @@ Public Class ForgotPassword
 
                     If UCase(AdminDataReader("Username")) = UCase(txtUserName.Text) And UCase(AdminDataReader("DateOfBirth")) = UCase(dtpDOB.Text) And UCase(AdminDataReader("PlaceOfBirth")) = UCase(txtPOB.Text) Then
 
-                        MessageBox.Show("Your password is  .:{ '" & UCase(AdminDataReader(4)).ToString() & "' }:. ", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                        MessageBox.Show("Your password is  .:{ '" & Decrypt(AdminDataReader(4).ToString()) & "' }:. ", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information)
                         LinkLabel2.Visible = True
                         AdminConnection.Close()
 
@@ -204,6 +205,20 @@ Public Class ForgotPassword
         End Try
 
     End Sub
+
+    'Decryption
+    Public Function Decrypt(Decryption As String) As String
+
+        Dim encodedtext As New UTF8Encoding
+        Dim decode As Decoder = encodedtext.GetDecoder
+        Dim code_byte As Byte() = Convert.FromBase64String(Decryption)
+        Dim charcount As Integer = decode.GetCharCount(code_byte, 0, code_byte.Length)
+        Dim decode_char As Char() = New Char(charcount - 1) {}
+        decode.GetChars(code_byte, 0, code_byte.Length, decode_char, 0)
+        Dim decryptext As New String(decode_char)
+        Return decryptext
+
+    End Function
 
     Private Sub FrmForgetPass_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 

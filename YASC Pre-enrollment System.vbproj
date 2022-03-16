@@ -237,43 +237,15 @@
     <Compile Include="LoginHistoryGuide.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainFormGuide.Designer.vb">
-      <DependentUpon>MainFormGuide.vb</DependentUpon>
-    </Compile>
-    <Compile Include="MainFormGuide.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="PreEnrollmentDataset.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>PreEnrollmentDataset.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="PreEnrollmentDataSet1.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>PreEnrollmentDataSet1.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Pre_enrollmentDataSet.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Pre_enrollmentDataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="RegistrarInfo.designer.vb">
-      <DependentUpon>RegistrarInfo.vb</DependentUpon>
-    </Compile>
-    <Compile Include="RegistrarInfo.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SelectStudents.designer.vb">
-      <DependentUpon>SelectStudents.vb</DependentUpon>
-    </Compile>
-    <Compile Include="SelectStudents.vb">
-      <SubType>Form</SubType>
     </Compile>
     <Compile Include="StudentEnrollmentGuide.Designer.vb">
       <DependentUpon>StudentEnrollmentGuide.vb</DependentUpon>
@@ -354,12 +326,6 @@
     <Compile Include="PrintID.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SchoolInfo.Designer.vb">
-      <DependentUpon>SchoolInfo.vb</DependentUpon>
-    </Compile>
-    <Compile Include="SchoolInfo.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="StudentEnrollment.Designer.vb">
       <DependentUpon>StudentEnrollment.vb</DependentUpon>
     </Compile>
@@ -377,11 +343,6 @@
     </Compile>
     <Compile Include="StudentRequirements.vb">
       <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="_Pre_enrollmentDataSet.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>_Pre_enrollmentDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="_Pre_enrollmentDataSet1.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -413,15 +374,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LoginHistoryGuide.resx">
       <DependentUpon>LoginHistoryGuide.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MainFormGuide.resx">
-      <DependentUpon>MainFormGuide.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="RegistrarInfo.resx">
-      <DependentUpon>RegistrarInfo.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SelectStudents.resx">
-      <DependentUpon>SelectStudents.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StudentEnrollmentGuide.resx">
       <DependentUpon>StudentEnrollmentGuide.vb</DependentUpon>
@@ -458,9 +410,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PrintID.resx">
       <DependentUpon>PrintID.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SchoolInfo.resx">
-      <DependentUpon>SchoolInfo.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StudentEnrollment.resx">
       <DependentUpon>StudentEnrollment.vb</DependentUpon>
@@ -540,28 +489,6 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="packages.config" />
-    <None Include="PreEnrollmentDataset.xsc">
-      <DependentUpon>PreEnrollmentDataset.xsd</DependentUpon>
-    </None>
-    <None Include="PreEnrollmentDataset.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>PreEnrollmentDataset.Designer.vb</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="PreEnrollmentDataset.xss">
-      <DependentUpon>PreEnrollmentDataset.xsd</DependentUpon>
-    </None>
-    <None Include="PreEnrollmentDataSet1.xsc">
-      <DependentUpon>PreEnrollmentDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="PreEnrollmentDataSet1.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>PreEnrollmentDataSet1.Designer.vb</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="PreEnrollmentDataSet1.xss">
-      <DependentUpon>PreEnrollmentDataSet1.xsd</DependentUpon>
-    </None>
     <None Include="Pre_enrollmentDataSet.xsc">
       <DependentUpon>Pre_enrollmentDataSet.xsd</DependentUpon>
     </None>
@@ -574,17 +501,6 @@
       <DependentUpon>Pre_enrollmentDataSet.xsd</DependentUpon>
     </None>
     <None Include="Yasc Pre-enrollment System_TemporaryKey.pfx" />
-    <None Include="_Pre_enrollmentDataSet.xsc">
-      <DependentUpon>_Pre_enrollmentDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="_Pre_enrollmentDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>_Pre_enrollmentDataSet.Designer.vb</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="_Pre_enrollmentDataSet.xss">
-      <DependentUpon>_Pre_enrollmentDataSet.xsd</DependentUpon>
-    </None>
     <None Include="_Pre_enrollmentDataSet1.xsc">
       <DependentUpon>_Pre_enrollmentDataSet1.xsd</DependentUpon>
     </None>

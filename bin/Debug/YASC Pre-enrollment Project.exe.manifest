@@ -151,14 +151,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="YASC Pre-enrollment Project.exe" size="14787072">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="YASC Pre-enrollment Project.exe" size="13281280">
       <assemblyIdentity name="YASC Pre-enrollment Project" version="1.1.1.1" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>edeFMYaa2dfJd1c9NtWqG/3XYP0MUgBCSqhfZFRD7zA=</dsig:DigestValue>
+        <dsig:DigestValue>MNkjA+7ZZx4BqAMH/saVl/xN6eu6cf02tcTjOj3a3BI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

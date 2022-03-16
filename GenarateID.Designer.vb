@@ -27,8 +27,10 @@ Partial Class GenarateID
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.PicID = New System.Windows.Forms.PictureBox()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.LRN = New System.Windows.Forms.Label()
         Me.GradeID = New System.Windows.Forms.Label()
         Me.NameID = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
@@ -49,8 +51,6 @@ Partial Class GenarateID
         Me.Address = New System.Windows.Forms.Label()
         Me.City = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.LRN = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         CType(Me.PicID, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -110,6 +110,18 @@ Partial Class GenarateID
         Me.Panel1.Size = New System.Drawing.Size(450, 132)
         Me.Panel1.TabIndex = 5
         '
+        'Label2
+        '
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
+        Me.Label2.Font = New System.Drawing.Font("Monotype Corsiva", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.White
+        Me.Label2.Location = New System.Drawing.Point(131, 44)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(319, 25)
+        Me.Label2.TabIndex = 2
+        Me.Label2.Text = "SCHOOL OF CALOOCAN, INC."
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'PicID
         '
         Me.PicID.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
@@ -131,6 +143,20 @@ Partial Class GenarateID
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(450, 138)
         Me.Panel2.TabIndex = 7
+        '
+        'LRN
+        '
+        Me.LRN.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.LRN.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LRN.Location = New System.Drawing.Point(0, 84)
+        Me.LRN.Name = "LRN"
+        Me.LRN.Size = New System.Drawing.Size(450, 30)
+        Me.LRN.TabIndex = 2
+        Me.LRN.Text = "LRN: ############"
+        Me.LRN.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.LRN.Visible = False
         '
         'GradeID
         '
@@ -245,7 +271,7 @@ Partial Class GenarateID
         Me.RegistrarName.Name = "RegistrarName"
         Me.RegistrarName.Size = New System.Drawing.Size(450, 25)
         Me.RegistrarName.TabIndex = 10
-        Me.RegistrarName.Text = "(REGISTRAR NAME)"
+        Me.RegistrarName.Text = "KAYE ANGELA TUAZON"
         Me.RegistrarName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label12
@@ -383,32 +409,6 @@ Partial Class GenarateID
         Me.Label3.TabIndex = 0
         Me.Label3.Text = "   IN CASE OF EMERGENCY"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'LRN
-        '
-        Me.LRN.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.LRN.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LRN.Location = New System.Drawing.Point(0, 84)
-        Me.LRN.Name = "LRN"
-        Me.LRN.Size = New System.Drawing.Size(450, 30)
-        Me.LRN.TabIndex = 2
-        Me.LRN.Text = "LRN: ############"
-        Me.LRN.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.LRN.Visible = False
-        '
-        'Label2
-        '
-        Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("Monotype Corsiva", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(131, 44)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(319, 25)
-        Me.Label2.TabIndex = 2
-        Me.Label2.Text = "SCHOOL OF CALOOCAN, INC."
-        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'GenarateID
         '

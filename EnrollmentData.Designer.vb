@@ -93,6 +93,7 @@ Partial Class EnrollmentData
         Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.cmbStudentNum = New System.Windows.Forms.ComboBox()
         Me.btnGenerateID = New System.Windows.Forms.Button()
         Me.btnDenied = New System.Windows.Forms.Button()
         Me.EnrollmentNumberTextBox1 = New System.Windows.Forms.TextBox()
@@ -247,7 +248,6 @@ Partial Class EnrollmentData
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.EnrollmentDataTableAdapter = New SchoolManagementSystem.Pre_enrollmentDataSetTableAdapters.EnrollmentDataTableAdapter()
         Me.TableAdapterManager = New SchoolManagementSystem.Pre_enrollmentDataSetTableAdapters.TableAdapterManager()
-        Me.cmbStudentNum = New System.Windows.Forms.ComboBox()
         Label3 = New System.Windows.Forms.Label()
         EnrollmentNumberLabel = New System.Windows.Forms.Label()
         StudentNumberLabel = New System.Windows.Forms.Label()
@@ -1121,6 +1121,16 @@ Partial Class EnrollmentData
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(900, 475)
         Me.Panel1.TabIndex = 2
+        '
+        'cmbStudentNum
+        '
+        Me.cmbStudentNum.DropDownStyle = System.Windows.Forms.ComboBoxStyle.Simple
+        Me.cmbStudentNum.FormattingEnabled = True
+        Me.cmbStudentNum.Location = New System.Drawing.Point(19, 6)
+        Me.cmbStudentNum.Name = "cmbStudentNum"
+        Me.cmbStudentNum.Size = New System.Drawing.Size(10, 20)
+        Me.cmbStudentNum.TabIndex = 407
+        Me.cmbStudentNum.Visible = False
         '
         'btnGenerateID
         '
@@ -2716,16 +2726,6 @@ Partial Class EnrollmentData
         Me.TableAdapterManager.SubjectTableAdapter = Nothing
         Me.TableAdapterManager.TeacherInfoTableAdapter = Nothing
         Me.TableAdapterManager.UpdateOrder = SchoolManagementSystem.Pre_enrollmentDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete
-        '
-        'cmbStudentNum
-        '
-        Me.cmbStudentNum.DropDownStyle = System.Windows.Forms.ComboBoxStyle.Simple
-        Me.cmbStudentNum.FormattingEnabled = True
-        Me.cmbStudentNum.Location = New System.Drawing.Point(19, 6)
-        Me.cmbStudentNum.Name = "cmbStudentNum"
-        Me.cmbStudentNum.Size = New System.Drawing.Size(10, 20)
-        Me.cmbStudentNum.TabIndex = 407
-        Me.cmbStudentNum.Visible = False
         '
         'EnrollmentData
         '

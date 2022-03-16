@@ -11,7 +11,7 @@ Public Class GenarateID
 
             Dim FillDataIDDataReader As OleDbDataReader
 
-            Dim FillDataIDCommand As New OleDbCommand("SELECT [StudentPicture],[StudentNumber],[Firstname],[Middlename],[Lastname],[GradeLevel],[Strand],[PersonEmergency],[GuardianName],[GuardianContactNumber],[Address],[City] FROM EnrollmentData WHERE StudentNumber = '" & EnrollmentData.cmbStudentNum.Text & "'", FillDataIDConnection)
+            Dim FillDataIDCommand As New OleDbCommand("SELECT [StudentPicture],[StudentNumber],[Firstname],[Middlename],[Lastname],[GradeLevel],[Strand],[PersonEmergency],[GuardianName],[GuardianContactNumber],[Address],[City] FROM EnrollmentData WHERE EnrollmentNumber = 6", FillDataIDConnection)
 
             FillDataIDDataReader = FillDataIDCommand.ExecuteReader
 
@@ -533,6 +533,7 @@ Public Class GenarateID
                         FillDataIDConnection.Close()
                         FillDataIDDataReader.Close()
                         Return
+
                     Else
                         strStrand = ""
 
