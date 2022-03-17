@@ -151,26 +151,17 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="YASC Pre-enrollment Project.exe" size="13281280">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="YASC Pre-enrollment Project.exe" size="12504064">
       <assemblyIdentity name="YASC Pre-enrollment Project" version="1.1.1.1" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>MNkjA+7ZZx4BqAMH/saVl/xN6eu6cf02tcTjOj3a3BI=</dsig:DigestValue>
+        <dsig:DigestValue>KqmUhmJOu/84BHYRUfc9RG3PKM6s3Nk0/zzKW8V1Wf0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="Database.accdb" size="30752768">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>MA6CUnIcn5vZwav/NZunogFa5A5f1pdZhiRYnkJqwNY=</dsig:DigestValue>
-    </hash>
-  </file>
   <file name="logo.ico" size="224674">
     <hash>
       <dsig:Transforms>
@@ -178,15 +169,6 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>fvPDvYhJLqpjmBhTET8ejVe2Mai8ZuIYg9hL66lg8qg=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="MetroFramework.txt" size="1266">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>+yV6adEVlpUIOiH/IdsfqaixKo0MB7DiB/hBOyI4wKw=</dsig:DigestValue>
     </hash>
   </file>
   <file name="YASC Pre-enrollment Project.exe.config" size="1601">

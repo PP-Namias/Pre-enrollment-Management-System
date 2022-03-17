@@ -1978,15 +1978,13 @@ Partial Class EnrollmentData
         Me.AdvancedDataGridView1.AllowUserToAddRows = False
         Me.AdvancedDataGridView1.AllowUserToDeleteRows = False
         Me.AdvancedDataGridView1.AllowUserToOrderColumns = True
-        Me.AdvancedDataGridView1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.AdvancedDataGridView1.AutoGenerateColumns = False
         Me.AdvancedDataGridView1.AutoGenerateContextFilters = True
         Me.AdvancedDataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells
         Me.AdvancedDataGridView1.BackgroundColor = System.Drawing.Color.White
         DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
         DataGridViewCellStyle1.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle1.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         DataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText
         DataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight
         DataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText
@@ -2004,6 +2002,7 @@ Partial Class EnrollmentData
         DataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText
         DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
         Me.AdvancedDataGridView1.DefaultCellStyle = DataGridViewCellStyle3
+        Me.AdvancedDataGridView1.GridColor = System.Drawing.SystemColors.ActiveCaption
         Me.AdvancedDataGridView1.Location = New System.Drawing.Point(25, 65)
         Me.AdvancedDataGridView1.MultiSelect = False
         Me.AdvancedDataGridView1.Name = "AdvancedDataGridView1"
@@ -2050,7 +2049,7 @@ Partial Class EnrollmentData
         Me.Approve.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
         Me.Approve.Text = "Approve"
         Me.Approve.ToolTipText = "Approve"
-        Me.Approve.Width = 78
+        Me.Approve.Width = 89
         '
         'EnrollmentNumberDataGridViewTextBoxColumn
         '
@@ -2071,7 +2070,7 @@ Partial Class EnrollmentData
         Me.StatusDataGridViewTextBoxColumn.Name = "StatusDataGridViewTextBoxColumn"
         Me.StatusDataGridViewTextBoxColumn.ReadOnly = True
         Me.StatusDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.StatusDataGridViewTextBoxColumn.Width = 63
+        Me.StatusDataGridViewTextBoxColumn.Width = 71
         '
         'StudentNumberDataGridViewTextBoxColumn
         '
@@ -2081,7 +2080,7 @@ Partial Class EnrollmentData
         Me.StudentNumberDataGridViewTextBoxColumn.Name = "StudentNumberDataGridViewTextBoxColumn"
         Me.StudentNumberDataGridViewTextBoxColumn.ReadOnly = True
         Me.StudentNumberDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.StudentNumberDataGridViewTextBoxColumn.Width = 118
+        Me.StudentNumberDataGridViewTextBoxColumn.Width = 137
         '
         'IdentifierDataGridViewTextBoxColumn
         '
@@ -2102,7 +2101,7 @@ Partial Class EnrollmentData
         Me.LastnameDataGridViewTextBoxColumn.Name = "LastnameDataGridViewTextBoxColumn"
         Me.LastnameDataGridViewTextBoxColumn.ReadOnly = True
         Me.LastnameDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.LastnameDataGridViewTextBoxColumn.Width = 85
+        Me.LastnameDataGridViewTextBoxColumn.Width = 99
         '
         'FirstnameDataGridViewTextBoxColumn
         '
@@ -2112,7 +2111,7 @@ Partial Class EnrollmentData
         Me.FirstnameDataGridViewTextBoxColumn.Name = "FirstnameDataGridViewTextBoxColumn"
         Me.FirstnameDataGridViewTextBoxColumn.ReadOnly = True
         Me.FirstnameDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.FirstnameDataGridViewTextBoxColumn.Width = 86
+        Me.FirstnameDataGridViewTextBoxColumn.Width = 99
         '
         'MiddlenameDataGridViewTextBoxColumn
         '
@@ -2122,7 +2121,7 @@ Partial Class EnrollmentData
         Me.MiddlenameDataGridViewTextBoxColumn.Name = "MiddlenameDataGridViewTextBoxColumn"
         Me.MiddlenameDataGridViewTextBoxColumn.ReadOnly = True
         Me.MiddlenameDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.MiddlenameDataGridViewTextBoxColumn.Width = 102
+        Me.MiddlenameDataGridViewTextBoxColumn.Width = 120
         '
         'GradeLevelDataGridViewTextBoxColumn
         '
@@ -2132,7 +2131,7 @@ Partial Class EnrollmentData
         Me.GradeLevelDataGridViewTextBoxColumn.Name = "GradeLevelDataGridViewTextBoxColumn"
         Me.GradeLevelDataGridViewTextBoxColumn.ReadOnly = True
         Me.GradeLevelDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.GradeLevelDataGridViewTextBoxColumn.Width = 97
+        Me.GradeLevelDataGridViewTextBoxColumn.Width = 112
         '
         'StrandDataGridViewTextBoxColumn
         '
@@ -2142,7 +2141,7 @@ Partial Class EnrollmentData
         Me.StrandDataGridViewTextBoxColumn.Name = "StrandDataGridViewTextBoxColumn"
         Me.StrandDataGridViewTextBoxColumn.ReadOnly = True
         Me.StrandDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.StrandDataGridViewTextBoxColumn.Width = 66
+        Me.StrandDataGridViewTextBoxColumn.Width = 75
         '
         'SemesterDataGridViewTextBoxColumn
         '
@@ -2152,7 +2151,7 @@ Partial Class EnrollmentData
         Me.SemesterDataGridViewTextBoxColumn.Name = "SemesterDataGridViewTextBoxColumn"
         Me.SemesterDataGridViewTextBoxColumn.ReadOnly = True
         Me.SemesterDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.SemesterDataGridViewTextBoxColumn.Width = 80
+        Me.SemesterDataGridViewTextBoxColumn.Width = 91
         '
         'SchoolYearDataGridViewTextBoxColumn
         '
@@ -2162,7 +2161,7 @@ Partial Class EnrollmentData
         Me.SchoolYearDataGridViewTextBoxColumn.Name = "SchoolYearDataGridViewTextBoxColumn"
         Me.SchoolYearDataGridViewTextBoxColumn.ReadOnly = True
         Me.SchoolYearDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.SchoolYearDataGridViewTextBoxColumn.Width = 97
+        Me.SchoolYearDataGridViewTextBoxColumn.Width = 110
         '
         'AgeDataGridViewTextBoxColumn
         '
@@ -2172,7 +2171,7 @@ Partial Class EnrollmentData
         Me.AgeDataGridViewTextBoxColumn.Name = "AgeDataGridViewTextBoxColumn"
         Me.AgeDataGridViewTextBoxColumn.ReadOnly = True
         Me.AgeDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.AgeDataGridViewTextBoxColumn.Width = 54
+        Me.AgeDataGridViewTextBoxColumn.Width = 60
         '
         'DOBDataGridViewTextBoxColumn
         '
@@ -2182,7 +2181,7 @@ Partial Class EnrollmentData
         Me.DOBDataGridViewTextBoxColumn.Name = "DOBDataGridViewTextBoxColumn"
         Me.DOBDataGridViewTextBoxColumn.ReadOnly = True
         Me.DOBDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.DOBDataGridViewTextBoxColumn.Width = 97
+        Me.DOBDataGridViewTextBoxColumn.Width = 112
         '
         'SexDataGridViewTextBoxColumn
         '
@@ -2192,7 +2191,7 @@ Partial Class EnrollmentData
         Me.SexDataGridViewTextBoxColumn.Name = "SexDataGridViewTextBoxColumn"
         Me.SexDataGridViewTextBoxColumn.ReadOnly = True
         Me.SexDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.SexDataGridViewTextBoxColumn.Width = 51
+        Me.SexDataGridViewTextBoxColumn.Width = 55
         '
         'POBDataGridViewTextBoxColumn
         '
@@ -2202,7 +2201,7 @@ Partial Class EnrollmentData
         Me.POBDataGridViewTextBoxColumn.Name = "POBDataGridViewTextBoxColumn"
         Me.POBDataGridViewTextBoxColumn.ReadOnly = True
         Me.POBDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.POBDataGridViewTextBoxColumn.Width = 103
+        Me.POBDataGridViewTextBoxColumn.Width = 118
         '
         'NationalityDataGridViewTextBoxColumn
         '
@@ -2212,7 +2211,7 @@ Partial Class EnrollmentData
         Me.NationalityDataGridViewTextBoxColumn.Name = "NationalityDataGridViewTextBoxColumn"
         Me.NationalityDataGridViewTextBoxColumn.ReadOnly = True
         Me.NationalityDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.NationalityDataGridViewTextBoxColumn.Width = 90
+        Me.NationalityDataGridViewTextBoxColumn.Width = 105
         '
         'ReligionDataGridViewTextBoxColumn
         '
@@ -2222,7 +2221,7 @@ Partial Class EnrollmentData
         Me.ReligionDataGridViewTextBoxColumn.Name = "ReligionDataGridViewTextBoxColumn"
         Me.ReligionDataGridViewTextBoxColumn.ReadOnly = True
         Me.ReligionDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.ReligionDataGridViewTextBoxColumn.Width = 76
+        Me.ReligionDataGridViewTextBoxColumn.Width = 86
         '
         'EmailDataGridViewTextBoxColumn
         '
@@ -2232,7 +2231,7 @@ Partial Class EnrollmentData
         Me.EmailDataGridViewTextBoxColumn.Name = "EmailDataGridViewTextBoxColumn"
         Me.EmailDataGridViewTextBoxColumn.ReadOnly = True
         Me.EmailDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.EmailDataGridViewTextBoxColumn.Width = 60
+        Me.EmailDataGridViewTextBoxColumn.Width = 69
         '
         'MobileNumberDataGridViewTextBoxColumn
         '
@@ -2242,7 +2241,7 @@ Partial Class EnrollmentData
         Me.MobileNumberDataGridViewTextBoxColumn.Name = "MobileNumberDataGridViewTextBoxColumn"
         Me.MobileNumberDataGridViewTextBoxColumn.ReadOnly = True
         Me.MobileNumberDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.MobileNumberDataGridViewTextBoxColumn.Width = 115
+        Me.MobileNumberDataGridViewTextBoxColumn.Width = 134
         '
         'TelephoneNumberDataGridViewTextBoxColumn
         '
@@ -2252,7 +2251,7 @@ Partial Class EnrollmentData
         Me.TelephoneNumberDataGridViewTextBoxColumn.Name = "TelephoneNumberDataGridViewTextBoxColumn"
         Me.TelephoneNumberDataGridViewTextBoxColumn.ReadOnly = True
         Me.TelephoneNumberDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.TelephoneNumberDataGridViewTextBoxColumn.Width = 135
+        Me.TelephoneNumberDataGridViewTextBoxColumn.Width = 156
         '
         'AddressDataGridViewTextBoxColumn
         '
@@ -2262,7 +2261,7 @@ Partial Class EnrollmentData
         Me.AddressDataGridViewTextBoxColumn.Name = "AddressDataGridViewTextBoxColumn"
         Me.AddressDataGridViewTextBoxColumn.ReadOnly = True
         Me.AddressDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.AddressDataGridViewTextBoxColumn.Width = 75
+        Me.AddressDataGridViewTextBoxColumn.Width = 86
         '
         'CityDataGridViewTextBoxColumn
         '
@@ -2272,7 +2271,7 @@ Partial Class EnrollmentData
         Me.CityDataGridViewTextBoxColumn.Name = "CityDataGridViewTextBoxColumn"
         Me.CityDataGridViewTextBoxColumn.ReadOnly = True
         Me.CityDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.CityDataGridViewTextBoxColumn.Width = 52
+        Me.CityDataGridViewTextBoxColumn.Width = 59
         '
         'FatherNameDataGridViewTextBoxColumn
         '
@@ -2282,7 +2281,7 @@ Partial Class EnrollmentData
         Me.FatherNameDataGridViewTextBoxColumn.Name = "FatherNameDataGridViewTextBoxColumn"
         Me.FatherNameDataGridViewTextBoxColumn.ReadOnly = True
         Me.FatherNameDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.FatherNameDataGridViewTextBoxColumn.Width = 101
+        Me.FatherNameDataGridViewTextBoxColumn.Width = 116
         '
         'FatherOccupationDataGridViewTextBoxColumn
         '
@@ -2292,7 +2291,7 @@ Partial Class EnrollmentData
         Me.FatherOccupationDataGridViewTextBoxColumn.Name = "FatherOccupationDataGridViewTextBoxColumn"
         Me.FatherOccupationDataGridViewTextBoxColumn.ReadOnly = True
         Me.FatherOccupationDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.FatherOccupationDataGridViewTextBoxColumn.Width = 133
+        Me.FatherOccupationDataGridViewTextBoxColumn.Width = 154
         '
         'FatherEmailDataGridViewTextBoxColumn
         '
@@ -2302,7 +2301,7 @@ Partial Class EnrollmentData
         Me.FatherEmailDataGridViewTextBoxColumn.Name = "FatherEmailDataGridViewTextBoxColumn"
         Me.FatherEmailDataGridViewTextBoxColumn.ReadOnly = True
         Me.FatherEmailDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.FatherEmailDataGridViewTextBoxColumn.Width = 97
+        Me.FatherEmailDataGridViewTextBoxColumn.Width = 113
         '
         'FatherWorkAddressDataGridViewTextBoxColumn
         '
@@ -2312,7 +2311,7 @@ Partial Class EnrollmentData
         Me.FatherWorkAddressDataGridViewTextBoxColumn.Name = "FatherWorkAddressDataGridViewTextBoxColumn"
         Me.FatherWorkAddressDataGridViewTextBoxColumn.ReadOnly = True
         Me.FatherWorkAddressDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.FatherWorkAddressDataGridViewTextBoxColumn.Width = 142
+        Me.FatherWorkAddressDataGridViewTextBoxColumn.Width = 167
         '
         'FatherContactNumberDataGridViewTextBoxColumn
         '
@@ -2322,7 +2321,7 @@ Partial Class EnrollmentData
         Me.FatherContactNumberDataGridViewTextBoxColumn.Name = "FatherContactNumberDataGridViewTextBoxColumn"
         Me.FatherContactNumberDataGridViewTextBoxColumn.ReadOnly = True
         Me.FatherContactNumberDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.FatherContactNumberDataGridViewTextBoxColumn.Width = 157
+        Me.FatherContactNumberDataGridViewTextBoxColumn.Width = 184
         '
         'MotherNameDataGridViewTextBoxColumn
         '
@@ -2332,7 +2331,7 @@ Partial Class EnrollmentData
         Me.MotherNameDataGridViewTextBoxColumn.Name = "MotherNameDataGridViewTextBoxColumn"
         Me.MotherNameDataGridViewTextBoxColumn.ReadOnly = True
         Me.MotherNameDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.MotherNameDataGridViewTextBoxColumn.Width = 105
+        Me.MotherNameDataGridViewTextBoxColumn.Width = 121
         '
         'MotherOccupationDataGridViewTextBoxColumn
         '
@@ -2342,7 +2341,7 @@ Partial Class EnrollmentData
         Me.MotherOccupationDataGridViewTextBoxColumn.Name = "MotherOccupationDataGridViewTextBoxColumn"
         Me.MotherOccupationDataGridViewTextBoxColumn.ReadOnly = True
         Me.MotherOccupationDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.MotherOccupationDataGridViewTextBoxColumn.Width = 137
+        Me.MotherOccupationDataGridViewTextBoxColumn.Width = 159
         '
         'MotherEmailDataGridViewTextBoxColumn
         '
@@ -2352,7 +2351,7 @@ Partial Class EnrollmentData
         Me.MotherEmailDataGridViewTextBoxColumn.Name = "MotherEmailDataGridViewTextBoxColumn"
         Me.MotherEmailDataGridViewTextBoxColumn.ReadOnly = True
         Me.MotherEmailDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.MotherEmailDataGridViewTextBoxColumn.Width = 101
+        Me.MotherEmailDataGridViewTextBoxColumn.Width = 118
         '
         'MotherWorkAddressDataGridViewTextBoxColumn
         '
@@ -2362,7 +2361,7 @@ Partial Class EnrollmentData
         Me.MotherWorkAddressDataGridViewTextBoxColumn.Name = "MotherWorkAddressDataGridViewTextBoxColumn"
         Me.MotherWorkAddressDataGridViewTextBoxColumn.ReadOnly = True
         Me.MotherWorkAddressDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.MotherWorkAddressDataGridViewTextBoxColumn.Width = 146
+        Me.MotherWorkAddressDataGridViewTextBoxColumn.Width = 172
         '
         'MotherContactNumberDataGridViewTextBoxColumn
         '
@@ -2372,7 +2371,7 @@ Partial Class EnrollmentData
         Me.MotherContactNumberDataGridViewTextBoxColumn.Name = "MotherContactNumberDataGridViewTextBoxColumn"
         Me.MotherContactNumberDataGridViewTextBoxColumn.ReadOnly = True
         Me.MotherContactNumberDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.MotherContactNumberDataGridViewTextBoxColumn.Width = 161
+        Me.MotherContactNumberDataGridViewTextBoxColumn.Width = 189
         '
         'NumberOfSiblingsDataGridViewTextBoxColumn
         '
@@ -2382,7 +2381,7 @@ Partial Class EnrollmentData
         Me.NumberOfSiblingsDataGridViewTextBoxColumn.Name = "NumberOfSiblingsDataGridViewTextBoxColumn"
         Me.NumberOfSiblingsDataGridViewTextBoxColumn.ReadOnly = True
         Me.NumberOfSiblingsDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.NumberOfSiblingsDataGridViewTextBoxColumn.Width = 132
+        Me.NumberOfSiblingsDataGridViewTextBoxColumn.Width = 156
         '
         'PersonEmergencyDataGridViewTextBoxColumn
         '
@@ -2392,7 +2391,7 @@ Partial Class EnrollmentData
         Me.PersonEmergencyDataGridViewTextBoxColumn.Name = "PersonEmergencyDataGridViewTextBoxColumn"
         Me.PersonEmergencyDataGridViewTextBoxColumn.ReadOnly = True
         Me.PersonEmergencyDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.PersonEmergencyDataGridViewTextBoxColumn.Width = 141
+        Me.PersonEmergencyDataGridViewTextBoxColumn.Width = 164
         '
         'GuardianNameDataGridViewTextBoxColumn
         '
@@ -2402,7 +2401,7 @@ Partial Class EnrollmentData
         Me.GuardianNameDataGridViewTextBoxColumn.Name = "GuardianNameDataGridViewTextBoxColumn"
         Me.GuardianNameDataGridViewTextBoxColumn.ReadOnly = True
         Me.GuardianNameDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.GuardianNameDataGridViewTextBoxColumn.Width = 118
+        Me.GuardianNameDataGridViewTextBoxColumn.Width = 139
         '
         'GuardianRelationDataGridViewTextBoxColumn
         '
@@ -2412,7 +2411,7 @@ Partial Class EnrollmentData
         Me.GuardianRelationDataGridViewTextBoxColumn.Name = "GuardianRelationDataGridViewTextBoxColumn"
         Me.GuardianRelationDataGridViewTextBoxColumn.ReadOnly = True
         Me.GuardianRelationDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.GuardianRelationDataGridViewTextBoxColumn.Width = 130
+        Me.GuardianRelationDataGridViewTextBoxColumn.Width = 153
         '
         'GuardianEmailDataGridViewTextBoxColumn
         '
@@ -2422,7 +2421,7 @@ Partial Class EnrollmentData
         Me.GuardianEmailDataGridViewTextBoxColumn.Name = "GuardianEmailDataGridViewTextBoxColumn"
         Me.GuardianEmailDataGridViewTextBoxColumn.ReadOnly = True
         Me.GuardianEmailDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.GuardianEmailDataGridViewTextBoxColumn.Width = 114
+        Me.GuardianEmailDataGridViewTextBoxColumn.Width = 136
         '
         'GuardianWorkAddressDataGridViewTextBoxColumn
         '
@@ -2432,7 +2431,7 @@ Partial Class EnrollmentData
         Me.GuardianWorkAddressDataGridViewTextBoxColumn.Name = "GuardianWorkAddressDataGridViewTextBoxColumn"
         Me.GuardianWorkAddressDataGridViewTextBoxColumn.ReadOnly = True
         Me.GuardianWorkAddressDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.GuardianWorkAddressDataGridViewTextBoxColumn.Width = 159
+        Me.GuardianWorkAddressDataGridViewTextBoxColumn.Width = 190
         '
         'GuardianContactNumberDataGridViewTextBoxColumn
         '
@@ -2442,7 +2441,7 @@ Partial Class EnrollmentData
         Me.GuardianContactNumberDataGridViewTextBoxColumn.Name = "GuardianContactNumberDataGridViewTextBoxColumn"
         Me.GuardianContactNumberDataGridViewTextBoxColumn.ReadOnly = True
         Me.GuardianContactNumberDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.GuardianContactNumberDataGridViewTextBoxColumn.Width = 174
+        Me.GuardianContactNumberDataGridViewTextBoxColumn.Width = 207
         '
         'FetcherNameDataGridViewTextBoxColumn
         '
@@ -2452,7 +2451,7 @@ Partial Class EnrollmentData
         Me.FetcherNameDataGridViewTextBoxColumn.Name = "FetcherNameDataGridViewTextBoxColumn"
         Me.FetcherNameDataGridViewTextBoxColumn.ReadOnly = True
         Me.FetcherNameDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.FetcherNameDataGridViewTextBoxColumn.Width = 108
+        Me.FetcherNameDataGridViewTextBoxColumn.Width = 123
         '
         'FetcherContactNumberDataGridViewTextBoxColumn
         '
@@ -2462,7 +2461,7 @@ Partial Class EnrollmentData
         Me.FetcherContactNumberDataGridViewTextBoxColumn.Name = "FetcherContactNumberDataGridViewTextBoxColumn"
         Me.FetcherContactNumberDataGridViewTextBoxColumn.ReadOnly = True
         Me.FetcherContactNumberDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.FetcherContactNumberDataGridViewTextBoxColumn.Width = 164
+        Me.FetcherContactNumberDataGridViewTextBoxColumn.Width = 191
         '
         'SiblingsOfStudent1DataGridViewTextBoxColumn
         '
@@ -2472,7 +2471,7 @@ Partial Class EnrollmentData
         Me.SiblingsOfStudent1DataGridViewTextBoxColumn.Name = "SiblingsOfStudent1DataGridViewTextBoxColumn"
         Me.SiblingsOfStudent1DataGridViewTextBoxColumn.ReadOnly = True
         Me.SiblingsOfStudent1DataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.SiblingsOfStudent1DataGridViewTextBoxColumn.Width = 138
+        Me.SiblingsOfStudent1DataGridViewTextBoxColumn.Width = 163
         '
         'SiblingsOfStudent2DataGridViewTextBoxColumn
         '
@@ -2482,7 +2481,7 @@ Partial Class EnrollmentData
         Me.SiblingsOfStudent2DataGridViewTextBoxColumn.Name = "SiblingsOfStudent2DataGridViewTextBoxColumn"
         Me.SiblingsOfStudent2DataGridViewTextBoxColumn.ReadOnly = True
         Me.SiblingsOfStudent2DataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.SiblingsOfStudent2DataGridViewTextBoxColumn.Width = 138
+        Me.SiblingsOfStudent2DataGridViewTextBoxColumn.Width = 163
         '
         'SiblingsOfStudent3DataGridViewTextBoxColumn
         '
@@ -2492,7 +2491,7 @@ Partial Class EnrollmentData
         Me.SiblingsOfStudent3DataGridViewTextBoxColumn.Name = "SiblingsOfStudent3DataGridViewTextBoxColumn"
         Me.SiblingsOfStudent3DataGridViewTextBoxColumn.ReadOnly = True
         Me.SiblingsOfStudent3DataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.SiblingsOfStudent3DataGridViewTextBoxColumn.Width = 138
+        Me.SiblingsOfStudent3DataGridViewTextBoxColumn.Width = 163
         '
         'SiblingsOfStudentAge1DataGridViewTextBoxColumn
         '
@@ -2502,7 +2501,7 @@ Partial Class EnrollmentData
         Me.SiblingsOfStudentAge1DataGridViewTextBoxColumn.Name = "SiblingsOfStudentAge1DataGridViewTextBoxColumn"
         Me.SiblingsOfStudentAge1DataGridViewTextBoxColumn.ReadOnly = True
         Me.SiblingsOfStudentAge1DataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.SiblingsOfStudentAge1DataGridViewTextBoxColumn.Width = 163
+        Me.SiblingsOfStudentAge1DataGridViewTextBoxColumn.Width = 194
         '
         'SiblingsOfStudentAge2DataGridViewTextBoxColumn
         '
@@ -2512,7 +2511,7 @@ Partial Class EnrollmentData
         Me.SiblingsOfStudentAge2DataGridViewTextBoxColumn.Name = "SiblingsOfStudentAge2DataGridViewTextBoxColumn"
         Me.SiblingsOfStudentAge2DataGridViewTextBoxColumn.ReadOnly = True
         Me.SiblingsOfStudentAge2DataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.SiblingsOfStudentAge2DataGridViewTextBoxColumn.Width = 163
+        Me.SiblingsOfStudentAge2DataGridViewTextBoxColumn.Width = 194
         '
         'SiblingsOfStudentAge3DataGridViewTextBoxColumn
         '
@@ -2522,7 +2521,7 @@ Partial Class EnrollmentData
         Me.SiblingsOfStudentAge3DataGridViewTextBoxColumn.Name = "SiblingsOfStudentAge3DataGridViewTextBoxColumn"
         Me.SiblingsOfStudentAge3DataGridViewTextBoxColumn.ReadOnly = True
         Me.SiblingsOfStudentAge3DataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.SiblingsOfStudentAge3DataGridViewTextBoxColumn.Width = 163
+        Me.SiblingsOfStudentAge3DataGridViewTextBoxColumn.Width = 194
         '
         'SiblingsOfStudentSchool1DataGridViewTextBoxColumn
         '
@@ -2532,7 +2531,7 @@ Partial Class EnrollmentData
         Me.SiblingsOfStudentSchool1DataGridViewTextBoxColumn.Name = "SiblingsOfStudentSchool1DataGridViewTextBoxColumn"
         Me.SiblingsOfStudentSchool1DataGridViewTextBoxColumn.ReadOnly = True
         Me.SiblingsOfStudentSchool1DataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.SiblingsOfStudentSchool1DataGridViewTextBoxColumn.Width = 178
+        Me.SiblingsOfStudentSchool1DataGridViewTextBoxColumn.Width = 210
         '
         'SiblingsOfStudentSchool2DataGridViewTextBoxColumn
         '
@@ -2542,7 +2541,7 @@ Partial Class EnrollmentData
         Me.SiblingsOfStudentSchool2DataGridViewTextBoxColumn.Name = "SiblingsOfStudentSchool2DataGridViewTextBoxColumn"
         Me.SiblingsOfStudentSchool2DataGridViewTextBoxColumn.ReadOnly = True
         Me.SiblingsOfStudentSchool2DataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.SiblingsOfStudentSchool2DataGridViewTextBoxColumn.Width = 178
+        Me.SiblingsOfStudentSchool2DataGridViewTextBoxColumn.Width = 210
         '
         'SiblingsOfStudentSchool3DataGridViewTextBoxColumn
         '
@@ -2552,7 +2551,7 @@ Partial Class EnrollmentData
         Me.SiblingsOfStudentSchool3DataGridViewTextBoxColumn.Name = "SiblingsOfStudentSchool3DataGridViewTextBoxColumn"
         Me.SiblingsOfStudentSchool3DataGridViewTextBoxColumn.ReadOnly = True
         Me.SiblingsOfStudentSchool3DataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.SiblingsOfStudentSchool3DataGridViewTextBoxColumn.Width = 178
+        Me.SiblingsOfStudentSchool3DataGridViewTextBoxColumn.Width = 210
         '
         'SchoolLastAttended1DataGridViewTextBoxColumn
         '
@@ -2562,7 +2561,7 @@ Partial Class EnrollmentData
         Me.SchoolLastAttended1DataGridViewTextBoxColumn.Name = "SchoolLastAttended1DataGridViewTextBoxColumn"
         Me.SchoolLastAttended1DataGridViewTextBoxColumn.ReadOnly = True
         Me.SchoolLastAttended1DataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.SchoolLastAttended1DataGridViewTextBoxColumn.Width = 153
+        Me.SchoolLastAttended1DataGridViewTextBoxColumn.Width = 180
         '
         'SchoolLastAttended2DataGridViewTextBoxColumn
         '
@@ -2572,7 +2571,7 @@ Partial Class EnrollmentData
         Me.SchoolLastAttended2DataGridViewTextBoxColumn.Name = "SchoolLastAttended2DataGridViewTextBoxColumn"
         Me.SchoolLastAttended2DataGridViewTextBoxColumn.ReadOnly = True
         Me.SchoolLastAttended2DataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.SchoolLastAttended2DataGridViewTextBoxColumn.Width = 153
+        Me.SchoolLastAttended2DataGridViewTextBoxColumn.Width = 180
         '
         'SchoolLastAttended3DataGridViewTextBoxColumn
         '
@@ -2582,7 +2581,7 @@ Partial Class EnrollmentData
         Me.SchoolLastAttended3DataGridViewTextBoxColumn.Name = "SchoolLastAttended3DataGridViewTextBoxColumn"
         Me.SchoolLastAttended3DataGridViewTextBoxColumn.ReadOnly = True
         Me.SchoolLastAttended3DataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.SchoolLastAttended3DataGridViewTextBoxColumn.Width = 153
+        Me.SchoolLastAttended3DataGridViewTextBoxColumn.Width = 180
         '
         'AcademicYear1DataGridViewTextBoxColumn
         '
@@ -2592,7 +2591,7 @@ Partial Class EnrollmentData
         Me.AcademicYear1DataGridViewTextBoxColumn.Name = "AcademicYear1DataGridViewTextBoxColumn"
         Me.AcademicYear1DataGridViewTextBoxColumn.ReadOnly = True
         Me.AcademicYear1DataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.AcademicYear1DataGridViewTextBoxColumn.Width = 124
+        Me.AcademicYear1DataGridViewTextBoxColumn.Width = 146
         '
         'AcademicYear2DataGridViewTextBoxColumn
         '
@@ -2602,7 +2601,7 @@ Partial Class EnrollmentData
         Me.AcademicYear2DataGridViewTextBoxColumn.Name = "AcademicYear2DataGridViewTextBoxColumn"
         Me.AcademicYear2DataGridViewTextBoxColumn.ReadOnly = True
         Me.AcademicYear2DataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.AcademicYear2DataGridViewTextBoxColumn.Width = 124
+        Me.AcademicYear2DataGridViewTextBoxColumn.Width = 146
         '
         'AcademicYear3DataGridViewTextBoxColumn
         '
@@ -2612,7 +2611,7 @@ Partial Class EnrollmentData
         Me.AcademicYear3DataGridViewTextBoxColumn.Name = "AcademicYear3DataGridViewTextBoxColumn"
         Me.AcademicYear3DataGridViewTextBoxColumn.ReadOnly = True
         Me.AcademicYear3DataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
-        Me.AcademicYear3DataGridViewTextBoxColumn.Width = 124
+        Me.AcademicYear3DataGridViewTextBoxColumn.Width = 146
         '
         'ReasonApplyingDataGridViewTextBoxColumn
         '

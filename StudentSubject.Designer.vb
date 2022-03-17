@@ -55,7 +55,7 @@ Partial Class StudentSubject
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(18, 25)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(862, 87)
+        Me.Label1.Size = New System.Drawing.Size(857, 87)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Class Schedule at Young Achievers` School of Caloocan, Inc."
         '
@@ -111,12 +111,12 @@ Partial Class StudentSubject
         'ColumnHeader1
         '
         Me.ColumnHeader1.Text = "Code"
-        Me.ColumnHeader1.Width = 425
+        Me.ColumnHeader1.Width = 424
         '
         'ColumnHeader2
         '
         Me.ColumnHeader2.Text = "Subject"
-        Me.ColumnHeader2.Width = 425
+        Me.ColumnHeader2.Width = 424
         '
         'Panel3
         '

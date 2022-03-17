@@ -51,9 +51,7 @@ Partial Class LoginForm
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.Label6 = New System.Windows.Forms.Label()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.Label7 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.TeacherForgetPassword = New System.Windows.Forms.LinkLabel()
         Me.lblAttempt = New System.Windows.Forms.Label()
@@ -67,9 +65,11 @@ Partial Class LoginForm
         Me.btnEnterAsGuest = New System.Windows.Forms.Button()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.Label14 = New System.Windows.Forms.Label()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         CType(Me.picHelp1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -241,12 +241,12 @@ Partial Class LoginForm
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Monotype Corsiva", 27.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(126, 65)
+        Me.Label2.Location = New System.Drawing.Point(112, 74)
         Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(675, 45)
+        Me.Label2.Size = New System.Drawing.Size(688, 51)
         Me.Label2.TabIndex = 22
-        Me.Label2.Text = "Pre-enrollment Program"
+        Me.Label2.Text = "Pre-enrollment Management System"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'PictureBox1
@@ -264,12 +264,12 @@ Partial Class LoginForm
         '
         Me.Label1.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Monotype Corsiva", 33.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Monotype Corsiva", 30.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(125, 10)
+        Me.Label1.Location = New System.Drawing.Point(112, 12)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(675, 72)
+        Me.Label1.Size = New System.Drawing.Size(688, 62)
         Me.Label1.TabIndex = 21
         Me.Label1.Text = "Young Achievers` School of Caloocan, Inc."
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -458,20 +458,6 @@ Partial Class LoginForm
         Me.Panel2.Size = New System.Drawing.Size(800, 125)
         Me.Panel2.TabIndex = 24
         '
-        'Label6
-        '
-        Me.Label6.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Label6.BackColor = System.Drawing.Color.Transparent
-        Me.Label6.Font = New System.Drawing.Font("Monotype Corsiva", 27.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.Color.White
-        Me.Label6.Location = New System.Drawing.Point(126, 65)
-        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(675, 45)
-        Me.Label6.TabIndex = 22
-        Me.Label6.Text = "Pre-enrollment Program"
-        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
         'PictureBox2
         '
         Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
@@ -482,20 +468,6 @@ Partial Class LoginForm
         Me.PictureBox2.Size = New System.Drawing.Size(100, 100)
         Me.PictureBox2.TabIndex = 23
         Me.PictureBox2.TabStop = False
-        '
-        'Label7
-        '
-        Me.Label7.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Label7.BackColor = System.Drawing.Color.Transparent
-        Me.Label7.Font = New System.Drawing.Font("Monotype Corsiva", 33.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.ForeColor = System.Drawing.Color.White
-        Me.Label7.Location = New System.Drawing.Point(125, 10)
-        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(675, 72)
-        Me.Label7.TabIndex = 21
-        Me.Label7.Text = "Young Achievers` School of Caloocan, Inc."
-        Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label5
         '
@@ -602,7 +574,7 @@ Partial Class LoginForm
         Me.TabPage4.Location = New System.Drawing.Point(4, 26)
         Me.TabPage4.Name = "TabPage4"
         Me.TabPage4.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage4.Size = New System.Drawing.Size(1189, 678)
+        Me.TabPage4.Size = New System.Drawing.Size(1192, 678)
         Me.TabPage4.TabIndex = 3
         Me.TabPage4.Text = "Guest"
         Me.TabPage4.UseVisualStyleBackColor = True
@@ -665,27 +637,13 @@ Partial Class LoginForm
         '
         Me.Panel4.BackColor = System.Drawing.Color.SkyBlue
         Me.Panel4.BackgroundImage = CType(resources.GetObject("Panel4.BackgroundImage"), System.Drawing.Image)
-        Me.Panel4.Controls.Add(Me.Label14)
+        Me.Panel4.Controls.Add(Me.Label10)
+        Me.Panel4.Controls.Add(Me.Label11)
         Me.Panel4.Controls.Add(Me.PictureBox4)
-        Me.Panel4.Controls.Add(Me.Label15)
         Me.Panel4.Location = New System.Drawing.Point(0, 0)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(800, 125)
         Me.Panel4.TabIndex = 24
-        '
-        'Label14
-        '
-        Me.Label14.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Label14.BackColor = System.Drawing.Color.Transparent
-        Me.Label14.Font = New System.Drawing.Font("Monotype Corsiva", 27.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.ForeColor = System.Drawing.Color.White
-        Me.Label14.Location = New System.Drawing.Point(126, 65)
-        Me.Label14.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(675, 45)
-        Me.Label14.TabIndex = 22
-        Me.Label14.Text = "Pre-enrollment Program"
-        Me.Label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'PictureBox4
         '
@@ -698,19 +656,61 @@ Partial Class LoginForm
         Me.PictureBox4.TabIndex = 23
         Me.PictureBox4.TabStop = False
         '
-        'Label15
+        'Label6
         '
-        Me.Label15.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Label15.BackColor = System.Drawing.Color.Transparent
-        Me.Label15.Font = New System.Drawing.Font("Monotype Corsiva", 33.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.ForeColor = System.Drawing.Color.White
-        Me.Label15.Location = New System.Drawing.Point(125, 10)
-        Me.Label15.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(675, 72)
-        Me.Label15.TabIndex = 21
-        Me.Label15.Text = "Young Achievers` School of Caloocan, Inc."
-        Me.Label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label6.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Label6.BackColor = System.Drawing.Color.Transparent
+        Me.Label6.Font = New System.Drawing.Font("Monotype Corsiva", 27.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.Color.White
+        Me.Label6.Location = New System.Drawing.Point(112, 74)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(688, 51)
+        Me.Label6.TabIndex = 24
+        Me.Label6.Text = "Pre-enrollment Management System"
+        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label7
+        '
+        Me.Label7.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Label7.BackColor = System.Drawing.Color.Transparent
+        Me.Label7.Font = New System.Drawing.Font("Monotype Corsiva", 30.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.ForeColor = System.Drawing.Color.White
+        Me.Label7.Location = New System.Drawing.Point(112, 12)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(688, 62)
+        Me.Label7.TabIndex = 23
+        Me.Label7.Text = "Young Achievers` School of Caloocan, Inc."
+        Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label10
+        '
+        Me.Label10.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Label10.BackColor = System.Drawing.Color.Transparent
+        Me.Label10.Font = New System.Drawing.Font("Monotype Corsiva", 27.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.ForeColor = System.Drawing.Color.White
+        Me.Label10.Location = New System.Drawing.Point(112, 74)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(688, 51)
+        Me.Label10.TabIndex = 25
+        Me.Label10.Text = "Pre-enrollment Management System"
+        Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label11
+        '
+        Me.Label11.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Label11.BackColor = System.Drawing.Color.Transparent
+        Me.Label11.Font = New System.Drawing.Font("Monotype Corsiva", 30.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.ForeColor = System.Drawing.Color.White
+        Me.Label11.Location = New System.Drawing.Point(112, 12)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(688, 62)
+        Me.Label11.TabIndex = 24
+        Me.Label11.Text = "Young Achievers` School of Caloocan, Inc."
+        Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'LoginForm
         '
@@ -766,9 +766,7 @@ Partial Class LoginForm
     Friend WithEvents GroupBox3 As GroupBox
     Friend WithEvents Label4 As Label
     Friend WithEvents Panel2 As Panel
-    Friend WithEvents Label6 As Label
     Friend WithEvents PictureBox2 As PictureBox
-    Friend WithEvents Label7 As Label
     Friend WithEvents Label5 As Label
     Private WithEvents TeacherForgetPassword As LinkLabel
     Friend WithEvents lblAttempt As Label
@@ -781,9 +779,7 @@ Partial Class LoginForm
     Friend WithEvents btnEnterAsGuest As Button
     Friend WithEvents Label13 As Label
     Friend WithEvents Panel4 As Panel
-    Friend WithEvents Label14 As Label
     Friend WithEvents PictureBox4 As PictureBox
-    Friend WithEvents Label15 As Label
     Public WithEvents cmbFormState As ComboBox
     Friend WithEvents Label8 As Label
     Friend WithEvents Label9 As Label
@@ -795,4 +791,8 @@ Partial Class LoginForm
     Friend WithEvents txtPosition As TextBox
     Friend WithEvents txtRemark As TextBox
     Friend WithEvents txtTimeIn As TextBox
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label10 As Label
+    Friend WithEvents Label11 As Label
 End Class

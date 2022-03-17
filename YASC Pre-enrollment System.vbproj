@@ -193,31 +193,11 @@
     <Compile Include="ChangePassword.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DatabaseDataSet1.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DatabaseDataSet1.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="DatabaseDataSet2.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DatabaseDataSet2.xsd</DependentUpon>
-    </Compile>
     <Compile Include="EnrollmentData.designer.vb">
       <DependentUpon>EnrollmentData.vb</DependentUpon>
     </Compile>
     <Compile Include="EnrollmentData.vb">
       <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="EnrollmentDataSet.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>EnrollmentDataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="EnrollmentDataSet1.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>EnrollmentDataSet1.xsd</DependentUpon>
     </Compile>
     <Compile Include="LoginGuide.Designer.vb">
       <DependentUpon>LoginGuide.vb</DependentUpon>
@@ -259,21 +239,13 @@
     <Compile Include="StudentSubject.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DatabaseDataSet.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DatabaseDataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="DatabaseDataSet.vb">
-      <DependentUpon>DatabaseDataSet.xsd</DependentUpon>
-    </Compile>
     <Compile Include="ForgotPassword.Designer.vb">
       <DependentUpon>ForgotPassword.vb</DependentUpon>
     </Compile>
     <Compile Include="ForgotPassword.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmMain.Designer.vb">
+    <Compile Include="MainForm.Designer.vb">
       <DependentUpon>MainForm.vb</DependentUpon>
     </Compile>
     <Compile Include="LoginForm.Designer.vb">
@@ -423,61 +395,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="DatabaseDataSet.xsc">
-      <DependentUpon>DatabaseDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="DatabaseDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>DatabaseDataSet.Designer.vb</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="DatabaseDataSet.xss">
-      <DependentUpon>DatabaseDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="DatabaseDataSet1.xsc">
-      <DependentUpon>DatabaseDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="DatabaseDataSet1.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>DatabaseDataSet1.Designer.vb</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="DatabaseDataSet1.xss">
-      <DependentUpon>DatabaseDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="DatabaseDataSet2.xsc">
-      <DependentUpon>DatabaseDataSet2.xsd</DependentUpon>
-    </None>
-    <None Include="DatabaseDataSet2.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>DatabaseDataSet2.Designer.vb</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="DatabaseDataSet2.xss">
-      <DependentUpon>DatabaseDataSet2.xsd</DependentUpon>
-    </None>
-    <None Include="EnrollmentDataSet.xsc">
-      <DependentUpon>EnrollmentDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="EnrollmentDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>EnrollmentDataSet.Designer.vb</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="EnrollmentDataSet.xss">
-      <DependentUpon>EnrollmentDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="EnrollmentDataSet1.xsc">
-      <DependentUpon>EnrollmentDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="EnrollmentDataSet1.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>EnrollmentDataSet1.Designer.vb</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="EnrollmentDataSet1.xss">
-      <DependentUpon>EnrollmentDataSet1.xsd</DependentUpon>
-    </None>
     <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
@@ -514,10 +431,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Database.accdb">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="MetroFramework.txt" />
     <None Include="bin\Debug\image\logo.png" />
     <None Include="bin\Debug\image\people.png" />
     <None Include="bin\Debug\image\date.png" />
