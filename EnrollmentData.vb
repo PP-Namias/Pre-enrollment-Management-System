@@ -934,7 +934,7 @@ Public Class EnrollmentData
 
     Private Sub GenerateID_Click(sender As Object, e As EventArgs) Handles btnGenerateID.Click
 
-        cmbStudentNum.Text = AdvancedDataGridView1.CurrentRow.Cells(4).Value.ToString
+        cmbEnrollmentNum.Text = AdvancedDataGridView1.CurrentRow.Cells(2).Value.ToString
 
         GenarateID.Show()
 

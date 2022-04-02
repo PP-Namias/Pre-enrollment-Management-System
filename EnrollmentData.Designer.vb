@@ -93,7 +93,7 @@ Partial Class EnrollmentData
         Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.cmbStudentNum = New System.Windows.Forms.ComboBox()
+        Me.cmbEnrollmentNum = New System.Windows.Forms.ComboBox()
         Me.btnGenerateID = New System.Windows.Forms.Button()
         Me.btnDenied = New System.Windows.Forms.Button()
         Me.EnrollmentNumberTextBox1 = New System.Windows.Forms.TextBox()
@@ -972,7 +972,7 @@ Partial Class EnrollmentData
         '
         Me.Panel1.AutoScroll = True
         Me.Panel1.BackColor = System.Drawing.Color.White
-        Me.Panel1.Controls.Add(Me.cmbStudentNum)
+        Me.Panel1.Controls.Add(Me.cmbEnrollmentNum)
         Me.Panel1.Controls.Add(Me.btnGenerateID)
         Me.Panel1.Controls.Add(Me.btnDenied)
         Me.Panel1.Controls.Add(Label1)
@@ -1122,15 +1122,15 @@ Partial Class EnrollmentData
         Me.Panel1.Size = New System.Drawing.Size(900, 475)
         Me.Panel1.TabIndex = 2
         '
-        'cmbStudentNum
+        'cmbEnrollmentNum
         '
-        Me.cmbStudentNum.DropDownStyle = System.Windows.Forms.ComboBoxStyle.Simple
-        Me.cmbStudentNum.FormattingEnabled = True
-        Me.cmbStudentNum.Location = New System.Drawing.Point(19, 6)
-        Me.cmbStudentNum.Name = "cmbStudentNum"
-        Me.cmbStudentNum.Size = New System.Drawing.Size(10, 20)
-        Me.cmbStudentNum.TabIndex = 407
-        Me.cmbStudentNum.Visible = False
+        Me.cmbEnrollmentNum.DropDownStyle = System.Windows.Forms.ComboBoxStyle.Simple
+        Me.cmbEnrollmentNum.FormattingEnabled = True
+        Me.cmbEnrollmentNum.Location = New System.Drawing.Point(19, 6)
+        Me.cmbEnrollmentNum.Name = "cmbEnrollmentNum"
+        Me.cmbEnrollmentNum.Size = New System.Drawing.Size(10, 20)
+        Me.cmbEnrollmentNum.TabIndex = 407
+        Me.cmbEnrollmentNum.Visible = False
         '
         'btnGenerateID
         '
@@ -2028,7 +2028,7 @@ Partial Class EnrollmentData
         Me.StudentPictureDataGridViewImageColumn.ReadOnly = True
         Me.StudentPictureDataGridViewImageColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
         Me.StudentPictureDataGridViewImageColumn.Visible = False
-        Me.StudentPictureDataGridViewImageColumn.Width = 110
+        Me.StudentPictureDataGridViewImageColumn.Width = 125
         '
         'Approve
         '
@@ -2060,7 +2060,7 @@ Partial Class EnrollmentData
         Me.EnrollmentNumberDataGridViewTextBoxColumn.ReadOnly = True
         Me.EnrollmentNumberDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
         Me.EnrollmentNumberDataGridViewTextBoxColumn.Visible = False
-        Me.EnrollmentNumberDataGridViewTextBoxColumn.Width = 134
+        Me.EnrollmentNumberDataGridViewTextBoxColumn.Width = 157
         '
         'StatusDataGridViewTextBoxColumn
         '
@@ -2091,7 +2091,7 @@ Partial Class EnrollmentData
         Me.IdentifierDataGridViewTextBoxColumn.ReadOnly = True
         Me.IdentifierDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
         Me.IdentifierDataGridViewTextBoxColumn.Visible = False
-        Me.IdentifierDataGridViewTextBoxColumn.Width = 78
+        Me.IdentifierDataGridViewTextBoxColumn.Width = 91
         '
         'LastnameDataGridViewTextBoxColumn
         '
@@ -2622,7 +2622,7 @@ Partial Class EnrollmentData
         Me.ReasonApplyingDataGridViewTextBoxColumn.ReadOnly = True
         Me.ReasonApplyingDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
         Me.ReasonApplyingDataGridViewTextBoxColumn.Visible = False
-        Me.ReasonApplyingDataGridViewTextBoxColumn.Width = 123
+        Me.ReasonApplyingDataGridViewTextBoxColumn.Width = 145
         '
         'ConditionDataGridViewTextBoxColumn
         '
@@ -2633,7 +2633,7 @@ Partial Class EnrollmentData
         Me.ConditionDataGridViewTextBoxColumn.ReadOnly = True
         Me.ConditionDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
         Me.ConditionDataGridViewTextBoxColumn.Visible = False
-        Me.ConditionDataGridViewTextBoxColumn.Width = 84
+        Me.ConditionDataGridViewTextBoxColumn.Width = 96
         '
         'Requirement1DataGridViewTextBoxColumn
         '
@@ -2644,7 +2644,7 @@ Partial Class EnrollmentData
         Me.Requirement1DataGridViewTextBoxColumn.ReadOnly = True
         Me.Requirement1DataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
         Me.Requirement1DataGridViewTextBoxColumn.Visible = False
-        Me.Requirement1DataGridViewTextBoxColumn.Width = 106
+        Me.Requirement1DataGridViewTextBoxColumn.Width = 122
         '
         'Requirement2DataGridViewTextBoxColumn
         '
@@ -2655,7 +2655,7 @@ Partial Class EnrollmentData
         Me.Requirement2DataGridViewTextBoxColumn.ReadOnly = True
         Me.Requirement2DataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
         Me.Requirement2DataGridViewTextBoxColumn.Visible = False
-        Me.Requirement2DataGridViewTextBoxColumn.Width = 106
+        Me.Requirement2DataGridViewTextBoxColumn.Width = 122
         '
         'Requirement3DataGridViewTextBoxColumn
         '
@@ -2666,7 +2666,7 @@ Partial Class EnrollmentData
         Me.Requirement3DataGridViewTextBoxColumn.ReadOnly = True
         Me.Requirement3DataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
         Me.Requirement3DataGridViewTextBoxColumn.Visible = False
-        Me.Requirement3DataGridViewTextBoxColumn.Width = 106
+        Me.Requirement3DataGridViewTextBoxColumn.Width = 122
         '
         'Requirement4DataGridViewTextBoxColumn
         '
@@ -2677,7 +2677,7 @@ Partial Class EnrollmentData
         Me.Requirement4DataGridViewTextBoxColumn.ReadOnly = True
         Me.Requirement4DataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic
         Me.Requirement4DataGridViewTextBoxColumn.Visible = False
-        Me.Requirement4DataGridViewTextBoxColumn.Width = 106
+        Me.Requirement4DataGridViewTextBoxColumn.Width = 122
         '
         'IdentifierDateTimePicker
         '
@@ -2911,5 +2911,5 @@ Partial Class EnrollmentData
     Friend WithEvents Requirement3DataGridViewTextBoxColumn As DataGridViewTextBoxColumn
     Friend WithEvents Requirement4DataGridViewTextBoxColumn As DataGridViewTextBoxColumn
     Friend WithEvents btnGenerateID As Button
-    Friend WithEvents cmbStudentNum As ComboBox
+    Friend WithEvents cmbEnrollmentNum As ComboBox
 End Class

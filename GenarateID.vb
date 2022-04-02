@@ -5,13 +5,13 @@ Public Class GenarateID
 
     Sub FillDataID()
         Try
-            Dim FillDataIDConnection As New OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" & My.Application.Info.DirectoryPath.ToString() & "\BackUp\Database.Accdb;Persist Security Info=False;")
+            Dim FillDataIDConnection As New OleDbConnection("Provider = Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\Database\Pre-enrollment.accdb")
             If FillDataIDConnection.State = ConnectionState.Open Then FillDataIDConnection.Close()
             FillDataIDConnection.Open()
 
             Dim FillDataIDDataReader As OleDbDataReader
 
-            Dim FillDataIDCommand As New OleDbCommand("SELECT [StudentPicture],[StudentNumber],[Firstname],[Middlename],[Lastname],[GradeLevel],[Strand],[PersonEmergency],[GuardianName],[GuardianContactNumber],[Address],[City] FROM EnrollmentData WHERE EnrollmentNumber = 6", FillDataIDConnection)
+            Dim FillDataIDCommand As New OleDbCommand("Select [StudentPicture], [StudentNumber], [Firstname], [Middlename], [Lastname], [GradeLevel], [Strand], [PersonEmergency], [GuardianName], [GuardianContactNumber], [Address], [City] FROM EnrollmentData WHERE EnrollmentNumber = 8", FillDataIDConnection)
 
             FillDataIDDataReader = FillDataIDCommand.ExecuteReader
 
@@ -562,7 +562,7 @@ Public Class GenarateID
         End Try
 
         Try
-            Dim RegistrarConnection As New OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" & My.Application.Info.DirectoryPath.ToString() & "\BackUp\Database.Accdb;Persist Security Info=False;")
+            Dim RegistrarConnection As New OleDbConnection("Provider = Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\Database\Pre-enrollment.accdb")
 
             If RegistrarConnection.State = ConnectionState.Open Then RegistrarConnection.Close()
             RegistrarConnection.Open()
