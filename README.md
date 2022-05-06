@@ -38,32 +38,32 @@ Planned (❌) and currently working (✔) - but not necessarily fully completed 
 - ✔ About Me
 
 ## How to Use
-> First, the user must login; if they do not have a login, they can utilize the 'Guest' or public login option. All users can proceed to pre-enroll students once they are in the Main form. However, only users with admin level access can accept or reject students pre-enrollment data. Only the system Super Admin can modify teachers' information and view login history; he or she is also in charge of data management. 
+First, the user must login; if they do not have a login, they can utilize the 'Guest' or public login option. All users can proceed to pre-enroll students once they are in the Main form. However, only users with admin level access can accept or reject students pre-enrollment data. Only the system Super Admin can modify teachers' information and view login history; he or she is also in charge of data management. 
 
 ## Login Information
 
 ### Super Admin
 
-| Username         | Password    |
-| ---------------- | ----------- |  
-| NAMIAS           | NAMIAS      |
+| Username         | Password         |
+| ---------------- | ---------------- |  
+| NAMIAS           | NAMIAS           |
 
 ### Admin
 
-| Username         | Password    |
-| ---------------- | ----------- |  
-| BALOD            | BALOD       |
-| TUAZON           | TUAZON      |
+| Username         | Password         |
+| ---------------- | ---------------- |  
+| BALOD            | BALOD            |
+| TUAZON           | TUAZON           |
 
 ### Teacher
 
-| Username         | Password    |
-| ---------------- | ----------- |  
-| BADONG           | BADONG      |
-| BALOD            | BALOD       |
-| KAYE             | KAYE        |
-| NAMIAS           | NAMIAS      |
-| PANELIST         | PANELIST    |
+| Username         | Password         |
+| ---------------- | ---------------- |  
+| BADONG           | BADONG           |
+| BALOD            | BALOD            |
+| KAYE             | KAYE             |
+| NAMIAS           | NAMIAS           |
+| PANELIST         | PANELIST         |
 
 ## How to Run
 
