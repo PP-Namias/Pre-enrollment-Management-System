@@ -1,6 +1,10 @@
+<p align="center">
+<img src="bin/Debug/image/banner.png" alt="Banner">
+</p>
+
 # Pre-enrollment Management System
 
-A system for processing, storing, and managing student enrolment data. This system's __real-time logging__ allows it to easily record the time-in and time-out of a user's attendance. It has a __simple user interface__ for quick record processing and logging. It also includes a picture of each user to guarantee the person's identification while logging in. This program is useful for schools, as they keep a large database of students' information and attendance records. __I hope you enjoy this system.__
+A system for processing, storing, and managing student enrolment data. This system is specifically designed for the __Young Achievers` School of Caloocan, Inc. (YASC)__. This system's __real-time logging__ allows it to easily record the time-in and time-out of a user's attendance. It has a __simple user interface__ for quick record processing and logging. It also includes a picture of each user to guarantee the person's identification while logging in. This program is useful for schools, as they keep a large database of students' information and attendance records. __I hope you enjoy this system.__
 
 ## Features
 
